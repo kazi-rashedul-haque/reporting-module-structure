@@ -1,0 +1,4 @@
+id_link
+name_text
+description_text
+default_icon
