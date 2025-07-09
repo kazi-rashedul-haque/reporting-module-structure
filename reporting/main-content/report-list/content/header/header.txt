@@ -1,2 +1,4 @@
-collapse sidebar
-create_report_button --> onClick=opens create report modal
+collapse_sidebar_button
+title: Reports
+search_field
+create_report_button --> onClick=opens Create Report modal

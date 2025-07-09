@@ -5,10 +5,13 @@ Report Name* textbox
     Placeholder: Enter name
     Mandatory: true
     Max length: 120 characters
+    HTML validation: Must not contain HTML tags
+
 Description textarea
     Placeholder: Write description
     Mandatory: false
     Max length: 240 characters
+    HTML validation: Must not contain HTML tags
 
 Cancel_button
 Next_button ----->onclick= go to new report creation wizard

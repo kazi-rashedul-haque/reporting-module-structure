@@ -1,4 +1,4 @@
-set_default_button
+add_to_dashboard_button --> onClick=opens Add to Dashboard modal
 export_csv_button_disabled
 export_excel_button_disabled
 rename_button --> onClick=opens Rename Dashboard modal

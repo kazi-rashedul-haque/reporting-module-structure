@@ -1,7 +1,7 @@
-Modal Title: Rename Dashboard
+Modal Title: Rename Report
 Close_button
 
-Dashboard Name* textbox
+Report Name* textbox
     Placeholder: Enter name
     Required: true
     Max length: 120 characters

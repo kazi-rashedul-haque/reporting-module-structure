@@ -1,7 +1,0 @@
-Modal Title: Delete Dashboard
-Close_button
-
-Body Text: Are you sure you want to delete '<dashboard_name>''?
-
-Cancel_button
-Delete_button
