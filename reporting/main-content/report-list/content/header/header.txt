@@ -1,0 +1,2 @@
+collapse sidebar
+create_report_button --> onClick=opens create report modal
