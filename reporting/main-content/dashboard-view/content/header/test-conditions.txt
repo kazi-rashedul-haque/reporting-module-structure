@@ -1,0 +1,7 @@
+If no custom dashboard exists, then the system-generated "Legacy Dashboard" is displayed by default. In this case, the "system-generated" label is shown, and the description is also visible.
+
+By default, the "Create Dashboard" button and the "Action Dropdown" button are visible in the dashboard header.
+
+If the user creates a new dashboard and clicks the "Save Changes" button in the Create Dashboard modal, then the user is redirected to the newly created dashboard view. In this view, the "Add Reports Dropdown" button is displayed on the right side of the header.
+
+If the user selects an existing report or creates a new report, then the selected report is added to the report area container of the dashboard. Additionally, the "Unsaved Changes Dropdown" becomes visible on the right side of the header.

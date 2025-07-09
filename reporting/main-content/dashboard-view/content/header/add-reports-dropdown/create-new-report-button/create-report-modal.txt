@@ -1,4 +1,4 @@
-Modal Title: Create Dashboard
+Modal Title: Create ReportCreate
 Close_button
 
 Dashboard Name* textbox
@@ -11,4 +11,4 @@ Description textarea
     Max length: 240 characters
 
 Cancel_button
-Save_changes_button ----->onclick=dashboard_view
+Save_changes_button ----->onclick= go to new report

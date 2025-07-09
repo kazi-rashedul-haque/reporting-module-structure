@@ -1,0 +1,14 @@
+Modal Title: Add Reports to Dashboard
+Search: textbox
+    Placeholder: Search
+invalid-input-No result found
+valid-input-Search by dashboard name
+No validation is found in the code.
+Close_button
+reports_name_list
+    List of reports with checkboxes
+    Checkbox: Select report to add number of reports selected displayed in the add-reports-button
+    HTML validation: Must not contain HTML tags
+
+Cancel_button
+add-reports_button ----->onclick= added selected reports to dashboard
