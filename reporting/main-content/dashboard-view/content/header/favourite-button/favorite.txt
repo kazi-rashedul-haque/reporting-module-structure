@@ -1,0 +1,4 @@
+Favorites Button (favorites_button)
+    Marks a dashboard as favorite.
+    Favorite dashboards are shown in black color.
+    Non-favorite dashboards appear in white.

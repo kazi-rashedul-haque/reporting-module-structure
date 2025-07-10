@@ -1,2 +1,2 @@
 collapse sidebar
-create_dashboard_button --> onClick=opens create Dashboard modal
+Heading Text: Dashboards

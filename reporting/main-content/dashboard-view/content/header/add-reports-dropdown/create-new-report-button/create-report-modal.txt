@@ -1,3 +1,5 @@
+create_new_report_button --> onClick=opens Create Report modal
+
 Modal Title: Create ReportCreate
 Close_button
 

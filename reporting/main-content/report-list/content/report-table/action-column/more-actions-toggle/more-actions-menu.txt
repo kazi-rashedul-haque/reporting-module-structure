@@ -1,8 +1,5 @@
-add_to_dashboard_button --> onClick=opens Add to Dashboard modal
 export_csv_button_disabled
 export_excel_button_disabled
-rename_button --> onClick=opens Rename Dashboard modal
 schedule_email_report_button_disabled
 add_to_favorites_button / remove_from_favorites_button
 clone_button
-delete_button --> onClick=opens Delete Dashboard modal

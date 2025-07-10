@@ -1,0 +1,15 @@
+community_dropdown
+Options:
+
+View All: Displays all communities.
+Select Community: Allows selection of a specific community dashboard.
+Filter Behavior: The dashboard updates based on the selected community.
+Default State: "All Communities" is selected by default.
+
+search_field: Search
+Placeholder: Search
+Behavior:
+Invalid Input: Only "All Communities" is displayed if no match is found.
+Valid Input: Matching communities are displayed.
+Select Community: Selected community shows a checkmark and updates the result.
+Default Label: Shown if the default community dashboard is selected. The label "Default" appears on the community right side.

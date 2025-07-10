@@ -1,3 +1,5 @@
+add_to_dashboard_button --> onClick=opens Add to Dashboard modal
+
 Modal Title: Add to Dashboard
 Close_button
 

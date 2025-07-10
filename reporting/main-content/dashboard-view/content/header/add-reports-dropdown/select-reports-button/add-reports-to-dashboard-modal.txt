@@ -1,3 +1,5 @@
+select_report_button --> onClick=opens Add Reports to Dashboard modal
+
 Modal Title: Add Reports to Dashboard
 Search: textbox
     Placeholder: Search

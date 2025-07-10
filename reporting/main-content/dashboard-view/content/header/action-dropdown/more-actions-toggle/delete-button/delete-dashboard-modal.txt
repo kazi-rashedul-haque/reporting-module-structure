@@ -1,3 +1,5 @@
+delete_button --> onClick=opens Delete Dashboard modal
+
 Modal Title: Delete Dashboard
 Close_button
 

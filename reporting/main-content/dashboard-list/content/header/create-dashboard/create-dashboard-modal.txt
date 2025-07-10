@@ -1,3 +1,5 @@
+create_dashboard_button --> onClick=opens create Dashboard modal
+
 Modal Title: Create Dashboard
 Close_button
 
