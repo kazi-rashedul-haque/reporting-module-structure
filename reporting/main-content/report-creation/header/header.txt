@@ -1,0 +1,10 @@
+Common Fields:
+ - Back_button
+ - Report_title
+ - Report_description
+
+Conditional Fields:
+ - Add_to_favorites_button / Remove_from_favorites_button
+ - Created_by_text
+ - Last_modified_on_text
+ - Actions_menu_button
