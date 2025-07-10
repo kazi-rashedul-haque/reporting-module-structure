@@ -1,0 +1,1 @@
+If the user creates a new dashboard and clicks the "Save Changes" button in the Create Dashboard modal, then the user is redirected to the newly created dashboard view. In this view, the "Add Reports Dropdown" button is displayed on the right side of the header.

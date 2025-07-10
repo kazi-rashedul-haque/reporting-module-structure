@@ -1,0 +1,1 @@
+edit_report_button--> onClick=opens Edit Report detail page
