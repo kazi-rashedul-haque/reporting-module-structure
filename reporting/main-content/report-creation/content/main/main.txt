@@ -1,0 +1,2 @@
+create_chart_image
+text: Choose your data to start building your report

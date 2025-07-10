@@ -1,0 +1,9 @@
+Time Properties:
+
+{
+    Daily
+    Weekly
+    Monthly
+    Quarterly
+    Yearly
+}
