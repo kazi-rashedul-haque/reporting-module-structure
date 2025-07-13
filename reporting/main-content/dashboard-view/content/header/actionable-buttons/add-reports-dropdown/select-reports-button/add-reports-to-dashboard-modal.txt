@@ -1,0 +1,26 @@
+Select Reports (select_report_button)
+Trigger: Clicking "Select Reports" from the "Add Reports" dropdown opens the Add Reports to Dashboard modal.
+
+Add Reports to Dashboard Modal
+Modal Title: "Add Reports to Dashboard"
+
+Search Field
+- Placeholder Text: "Search"
+- Valid Input: Filters reports by name in real-time.
+- Invalid Input: Displays a message such as "No results found" if no matching reports are available.
+- Validation: No HTML input validation is enforced.
+
+Report List
+- Displays a scrollable list of available reports, each with an associated checkbox.
+- Checkbox Behavior:
+    1. Users can select or deselect reports using checkboxes.
+    2. The number of selected reports is reflected on the "Add Reports" button.
+- Validation: Report names must not contain HTML tags (implicitly enforced in UI display).
+
+Action Buttons:
+- Cancel Button: Closes the modal without adding any reports.
+- Add Reports Button:
+    1. Enabled only when at least one report is selected.
+    2. On click, adds the selected reports to the current dashboard.
+
+Close Button: Dismisses the modal without saving changes.

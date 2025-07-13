@@ -1,0 +1,24 @@
+Community Filter
+Default Value: "All Communities"
+
+On Click:
+Displays all available communities—both selected and unselected—along with their corresponding icons.
+
+Search Field
+Placeholder Text: "Search"
+
+Behavior:
+Invalid Input: Only "All Communities" is displayed if no matches are found.
+Valid Input: Displays communities that match the input.
+Select Community: When a community is selected, a checkmark appears beside it, and the dashboard updates accordingly.
+Default Label: If the default community dashboard is selected, the label "Default" appears on the right side of the corresponding community.
+
+Community Grouping:
+1. All Communities
+2. Single Communities
+
+Community Selection:
+Communities can be selected using checkboxes.
+
+Filter Behavior:
+The dashboard updates based on the selected community(ies).

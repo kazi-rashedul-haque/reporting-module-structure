@@ -1,0 +1,2 @@
+When a user selects an existing report or creates a new one, the selected report is added to the dashboard's report area container.
+Additionally, the "Unsaved Changes" dropdown becomes visible on the right side of the header.

@@ -1,9 +1,0 @@
-Dashboard Dropdown (dashboard_dropdown)
-    Allows selection of dashboards from the available list and recent view.
-
-search_input : Search
-placeholder : Search
-invalid_input : no options
-valid_input : valid dashboard appears
-recent_view : Recent View dashboards list appears
-select_dashboard : Selected dashboard appears

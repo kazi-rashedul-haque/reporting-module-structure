@@ -1,0 +1,9 @@
+Add Reports Dropdown
+Provides options for managing reports within the current dashboard.
+
+Dropdown Options:
+Select Reports: Opens the report selector interface to add existing reports to the dashboard.
+Create New Report: Opens the Create Report modal for defining a new report.
+
+When a user creates a new dashboard and clicks the "Save Changes" button in the "Create Dashboard" modal, they are redirected to the newly created dashboard view.
+In this view, the "Add Reports" dropdown button appears on the right side of the header.

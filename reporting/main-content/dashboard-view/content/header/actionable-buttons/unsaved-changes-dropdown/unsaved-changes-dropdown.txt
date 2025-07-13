@@ -1,0 +1,18 @@
+Unsaved Changes Dropdown
+Trigger:
+- Displayed when unsaved modifications are detected on the current dashboard.
+- Clicking the "Unsaved Changes" badge reveals action options.
+
+Dropdown Options:
+
+1. Save Changes
+    - Commits the current changes to the existing dashboard.
+    - Updates are saved in place without creating a new dashboard.
+
+2. Save as New
+    - Opens the Create Dashboard modal.
+    - Allows users to save the current dashboard state as a new dashboard instance.
+
+3. Discard Changes
+    - Reverts the dashboard to its last saved state.
+    - All unsaved changes are permanently discarded.

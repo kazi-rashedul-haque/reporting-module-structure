@@ -1,0 +1,31 @@
+Save as New
+Trigger:
+- Clicking "Save as New" from the Unsaved Changes dropdown opens the Create Dashboard modal.
+- This allows users to preserve the current dashboard state as a new dashboard instance.
+
+Create Dashboard Modal (Save as New Flow)
+Modal Title: "Create Dashboard"
+Close Button: Closes the modal without saving a new dashboard.
+
+Form Fields:
+1. Dashboard Name
+- Label: Dashboard Name*
+- Placeholder: "Enter name"
+- Required: Yes
+- Max Length: 120 characters
+- Validation: HTML tags are not allowed.
+
+2. Description
+- Placeholder: "Write description"
+- Required: No
+- Max Length: 240 characters
+- Validation: HTML tags are not allowed.
+
+Action Buttons:
+1. Cancel Button:
+- Closes the modal without creating a new dashboard.
+
+2. Save Changes Button:
+- Saves the current dashboard as a new instance.
+- Redirects the user to the newly created dashboard view.
+- All previously selected reports are added and displayed in the report-area-container.

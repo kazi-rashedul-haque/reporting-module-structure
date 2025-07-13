@@ -1,4 +1,13 @@
-Collapse Sidebar: Collapses the sidebar to maximize dashboard viewing space.
-dashboard_description: Displays the description of the dashboard.
-system_label: Indicates that the dashboard is a system dashboard.
-default_dashboard_label: Indicates that the dashboard is a default dashboard.
+Collapse Sidebar
+Collapses the sidebar to maximize available space for viewing the dashboard content.
+
+Dashboard Description
+Displays the description text associated with the current dashboard.
+
+System Generated Label
+Indicates that the dashboard is a system-generated dashboard.
+This label is typically shown as a badge or tag on the dashboard header.
+
+Default Dashboard Label
+Indicates that the dashboard is set as the default dashboard.
+This label is displayed to distinguish it from user-created dashboards.

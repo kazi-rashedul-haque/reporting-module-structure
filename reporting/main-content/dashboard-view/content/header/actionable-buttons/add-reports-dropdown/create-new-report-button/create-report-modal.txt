@@ -1,0 +1,27 @@
+Create Report Modal
+Trigger: Clicking "Create New Report" opens the modal.
+
+Modal Elements:
+    - Title: "Create Report"
+    - Close Button: Closes the modal without saving.
+
+Form Fields:
+1. Report Name
+   - Label: "Report Name*"
+   - Placeholder: "Enter name"
+   - Required: Yes (mandatory field)
+   - Max Length: 120 characters
+   - Validation: HTML tags are not allowed
+
+2. Description
+    - Label: "Description"
+    - Placeholder: "Write description"
+    - Required: No (optional field)
+    - Max Length: 240 characters
+    - Validation: HTML tags are not allowed
+
+Action Buttons:
+Cancel Button: Closes the modal without saving changes.
+Save Changes Button: Saves the new report.
+
+On success, redirects the user to the newly created report detail page.

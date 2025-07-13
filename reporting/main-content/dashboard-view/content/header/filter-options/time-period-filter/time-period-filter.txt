@@ -1,0 +1,15 @@
+Time Period Filter
+Default Value: "All Time"
+
+Options:
+Last 7 Days: Displays data from the past 7 days.
+Last 30 Days: Displays data from the past 30 days.
+Last 90 Days: Displays data from the past 90 days.
+Last 180 Days: Displays data from the past 180 days.
+Last 365 Days: Displays data from the past 365 days.
+All Time: Displays all available data with no date restrictions.
+Custom Range: Enables selection of a specific start and end date.
+
+Default Behavior:
+"All Time" is selected by default, displaying report data across the full available time frame.
+If a custom date range is selected, the selected range is displayed in the dropdown and report data is filtered accordingly.

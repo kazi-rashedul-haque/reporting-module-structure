@@ -1,0 +1,1 @@
+remove_button: onClick = removes the report card from the dashboard

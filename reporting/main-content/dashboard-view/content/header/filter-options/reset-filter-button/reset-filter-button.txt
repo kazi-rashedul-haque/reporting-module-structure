@@ -1,0 +1,2 @@
+Name: Reset
+On Click: Reset all filters to their default values, including community and campaign selections.

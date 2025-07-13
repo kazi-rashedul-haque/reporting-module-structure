@@ -1,0 +1,26 @@
+Create Dashboard
+Trigger: Clicking the "Create Dashboard" button opens the Create Dashboard modal.
+
+Create Dashboard Modal
+Modal Title: "Create Dashboard"
+Close Button: Closes the modal without saving or creating a dashboard.
+
+Form Fields:
+1. Dashboard Name
+- Label: Dashboard Name*
+- Placeholder: "Enter name"
+- Required: Yes (mandatory field)
+- Max Length: 120 characters
+- Validation: HTML tags are not allowed.
+
+2. Description
+- Placeholder: "Write description"
+- Required: No (optional field)
+- Max Length: 240 characters
+- Validation: HTML tags are not allowed.
+
+Action Buttons:
+1. Cancel Button: Closes the modal without creating the dashboard.
+2. Save Changes Button:
+    - Saves the new dashboard.
+    - On success, redirects the user to the newly created dashboard view.

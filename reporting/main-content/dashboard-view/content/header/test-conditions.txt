@@ -1,2 +1,10 @@
-If no custom dashboard exists, then the system-generated "Legacy Dashboard" is displayed by default. In this case, the "system-generated" label is shown, and the description is also visible.
-By default, the "Create Dashboard" button and the "Action Dropdown" button are visible in the dashboard header.
+Default Dashboard Behavior
+If no custom dashboards exist, the system-generated "Legacy Dashboard" is displayed by default.
+    - The "System-Generated" label is shown to indicate its origin.
+    - The dashboard description is also displayed in this state.
+
+Dashboard Header Actions
+By default, the following action controls are visible in the dashboard header:
+    - "Create Dashboard" button
+    - "Actions" dropdown button
+These elements allow users to create new dashboards and perform actions on the current dashboard, respectively.

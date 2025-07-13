@@ -1,1 +1,0 @@
-manage_dashboards_button--> onClick= it is redirected to the Dashboard List page.

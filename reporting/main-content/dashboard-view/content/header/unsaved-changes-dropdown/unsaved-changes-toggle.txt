@@ -1,3 +1,0 @@
-save changes button
-save as new button onclick= go to Create Dashboard-modal
-Discard changes button
