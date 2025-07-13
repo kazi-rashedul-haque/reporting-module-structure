@@ -1,0 +1,4 @@
+saved_filter_dropdown_title: Saved Filters
+    Displays a search input to search through the list of saved filters.
+    When the user enters an invalid input an error message is shown: "No Options to Show".
+    When the user enters a valid input, the corresponding list of saved filters is displayed and can be selected for application.

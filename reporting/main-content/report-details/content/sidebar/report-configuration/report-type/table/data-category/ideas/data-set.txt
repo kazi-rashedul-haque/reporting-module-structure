@@ -1,0 +1,22 @@
+# of Ideas Submitted
+# of Idea Views
+# of Idea Votes
+Idea Up Votes
+Idea Down Votes
+# of Comment Votes
+Comment Up Votes
+Comment Down Votes
+# of Comments
+Engagement Actions
+# of Shares
+Tags Applied
+Reviews Completed
+Estimations Completed
+Refinements Submitted
+Fund Allocations
+Net Activity Score
+Idea Stage Change
+Moderator Activity Count
+Moderator Activity Per Idea
+Selected Ideas
+Implemented Ideas

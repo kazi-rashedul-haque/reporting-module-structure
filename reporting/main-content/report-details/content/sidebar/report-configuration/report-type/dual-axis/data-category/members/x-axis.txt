@@ -1,0 +1,19 @@
+Time Properties:
+
+{
+    Daily
+    Weekly
+    Monthly
+    Quarterly
+    Yearly
+}
+
+Member Properties:
+
+{
+    Member Email
+    Member Status
+    Campaign
+    Community Group
+    Workspace Group
+}

@@ -1,0 +1,11 @@
+save_filter_button --> onClick=opens Save Filter modal
+
+Modal Title: Save Filter
+field_name_title:
+    Placeholder: filter name
+    Mandatory: true
+    Max length: 120 characters
+    HTML validation: Must not contain HTML tags
+
+Cancel_button
+Save_button ----->onclick=filters_modal

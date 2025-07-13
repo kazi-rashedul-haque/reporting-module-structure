@@ -1,0 +1,25 @@
+Time Properties:
+
+{
+    Daily
+    Weekly
+    Monthly
+    Quarterly
+    Yearly
+}
+
+Idea Properties:
+
+{
+    Idea Number
+    Idea Title
+    Idea Submission Date
+    Idea Submitter
+    Idea Owner
+    Stage
+    Campaign
+    Campaign Group
+    Community
+    Community Group
+    Workspace Group
+}

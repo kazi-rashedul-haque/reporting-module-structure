@@ -1,0 +1,31 @@
+add_filter_button: onClick → Opens the Filters modal.
+save_filter_button: onClick → Saves the current filter configuration within the modal.
+
+Filters Modal
+
+    Modal Title: Filters
+    where_clause: operandType specifies the category of fields available for filtering.
+
+Operand Types and Available Fields:
+    Workspace: Workspace Group
+    Community: Community,Community Name, Community Group
+    Idea Properties: Idea, Idea Number, Idea Title, Idea Description, Idea Submission Date, Labels
+    Idea Owner: Owner, Owner Source, Owner Email, Owner Registration Date, Owner Status, Owner Profile Language
+    Idea Submitter: Submitter, Submitter Source, Submitter Email, Submitter Registration Date, Submitter Status, Submitter Profile Language
+    Stage Properties: Stage Name, Stage Description, Stage Function, Funnel
+    Campaign Properties: Campaign, Campaign Group, Campaign Title, Campaign Subtitle, Question/Challenge Statement, Campaign Start Date, Campaign End Date, Campaign Privacy, Campaign Language, Idea Submission Start Date, Idea Submission End Date
+    Engagement: Idea Submitted, Idea Views, Idea Votes, Idea Shares, Idea Comments, Idea Upvotes, Idea Downvotes, Comment Votes, Comments Upvotes, Kudos Given, Tag Usages, Engagement Actions, Review Completed, Assessment Completed, Estimation Completed, Refinement Submitted, Fund Allocations
+    Workspace Member Profile Questions: Workspace Member Profile Question
+    Member Profile Questions: Member Profile Question
+
+Comparison Options:EQUALS,DOES_NOT_EQUAL,STARTS_WITH,ENDS_WITH,CONTAINS,DOES_NOT_STARTS_WITH,DOES_NOT_ENDS_WITH,DOES_NOT_CONTAINS,AFTER,BEFORE,ON_OR_AFTER,ON_OR_BEFORE,
+GREATER_THAN,LESS_THAN,GREATER_THAN_OR_EQUALS,LESS_THAN_OR_EQUALS,DEFINED,NOT_DEFINED
+
+Type: The type of the filter options displayed is dynamically based on the selected operandType.
+conditional operator: Specifies the logical relationship between multiple filter conditions (AND, OR).
+Add Nested Filter: onClick → Adds a nested filter condition.
+
+Modal Buttons:
+    clear_all_button: Clears all applied filters.
+    cancel_button: onClick → Closes the modal without saving changes.
+    apply_button: onClick → Applies the selected filters and closes the modal.

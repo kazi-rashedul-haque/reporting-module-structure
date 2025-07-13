@@ -1,0 +1,7 @@
+onClick = opens the Filters modal
+
+title: Filters
+button: Saved Filters
+
+WHERE
+ dropdown: Select

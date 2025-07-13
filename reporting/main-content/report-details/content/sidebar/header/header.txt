@@ -1,0 +1,2 @@
+title: Customization
+collapse_sidebar_button: Expanded by default
