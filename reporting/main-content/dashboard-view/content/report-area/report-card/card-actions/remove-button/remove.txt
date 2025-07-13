@@ -1,1 +1,2 @@
 remove_button: onClick = removes the report card from the dashboard
+This button is only available for the report created by the user.

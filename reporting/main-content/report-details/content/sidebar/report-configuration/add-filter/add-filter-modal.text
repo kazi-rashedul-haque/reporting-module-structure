@@ -1,31 +1,58 @@
-add_filter_button: onClick → Opens the Filters modal.
-save_filter_button: onClick → Saves the current filter configuration within the modal.
+Add Filter
+Trigger: Clicking the "Add Filter" button opens the "Filters" modal.
 
 Filters Modal
-
-    Modal Title: Filters
-    where_clause: operandType specifies the category of fields available for filtering.
+Modal Title: "Filters"
+Filter Configuration:
+where_clause Logic: The operandType defines the category of fields available for filtering.
 
 Operand Types and Available Fields:
-    Workspace: Workspace Group
-    Community: Community,Community Name, Community Group
-    Idea Properties: Idea, Idea Number, Idea Title, Idea Description, Idea Submission Date, Labels
-    Idea Owner: Owner, Owner Source, Owner Email, Owner Registration Date, Owner Status, Owner Profile Language
-    Idea Submitter: Submitter, Submitter Source, Submitter Email, Submitter Registration Date, Submitter Status, Submitter Profile Language
-    Stage Properties: Stage Name, Stage Description, Stage Function, Funnel
-    Campaign Properties: Campaign, Campaign Group, Campaign Title, Campaign Subtitle, Question/Challenge Statement, Campaign Start Date, Campaign End Date, Campaign Privacy, Campaign Language, Idea Submission Start Date, Idea Submission End Date
-    Engagement: Idea Submitted, Idea Views, Idea Votes, Idea Shares, Idea Comments, Idea Upvotes, Idea Downvotes, Comment Votes, Comments Upvotes, Kudos Given, Tag Usages, Engagement Actions, Review Completed, Assessment Completed, Estimation Completed, Refinement Submitted, Fund Allocations
-    Workspace Member Profile Questions: Workspace Member Profile Question
-    Member Profile Questions: Member Profile Question
+Workspace: Workspace Group
 
-Comparison Options:EQUALS,DOES_NOT_EQUAL,STARTS_WITH,ENDS_WITH,CONTAINS,DOES_NOT_STARTS_WITH,DOES_NOT_ENDS_WITH,DOES_NOT_CONTAINS,AFTER,BEFORE,ON_OR_AFTER,ON_OR_BEFORE,
-GREATER_THAN,LESS_THAN,GREATER_THAN_OR_EQUALS,LESS_THAN_OR_EQUALS,DEFINED,NOT_DEFINED
+Community: Community, Community Name, Community Group
 
-Type: The type of the filter options displayed is dynamically based on the selected operandType.
-conditional operator: Specifies the logical relationship between multiple filter conditions (AND, OR).
-Add Nested Filter: onClick → Adds a nested filter condition.
+Idea Properties: Idea, Idea Number, Idea Title, Idea Description, Idea Submission Date, Labels
 
-Modal Buttons:
-    clear_all_button: Clears all applied filters.
-    cancel_button: onClick → Closes the modal without saving changes.
-    apply_button: onClick → Applies the selected filters and closes the modal.
+Idea Owner: Owner, Owner Source, Owner Email, Owner Registration Date, Owner Status, Owner Profile Language
+
+Idea Submitter: Submitter, Submitter Source, Submitter Email, Submitter Registration Date, Submitter Status, Submitter Profile Language
+
+Stage Properties: Stage Name, Stage Description, Stage Function, Funnel
+
+Campaign Properties: Campaign, Campaign Group, Campaign Title, Campaign Subtitle, Question/Challenge Statement,
+Campaign Start Date, Campaign End Date, Campaign Privacy, Campaign Language,
+Idea Submission Start Date, Idea Submission End Date
+
+Engagement:
+Idea Submitted, Idea Views, Idea Votes, Idea Shares, Idea Comments,
+Idea Upvotes, Idea Downvotes, Comment Votes, Comments Upvotes, Kudos Given,
+Tag Usages, Engagement Actions, Review Completed, Assessment Completed,
+Estimation Completed, Refinement Submitted, Fund Allocations
+
+Workspace Member Profile Questions: Workspace Member Profile Question
+
+Member Profile Questions: Member Profile Question
+
+Comparison Operators:
+Available logical comparisons for filter conditions include:
+EQUALS, DOES_NOT_EQUAL, STARTS_WITH, ENDS_WITH, CONTAINS,
+DOES_NOT_STARTS_WITH, DOES_NOT_ENDS_WITH, DOES_NOT_CONTAINS,
+AFTER, BEFORE, ON_OR_AFTER, ON_OR_BEFORE,
+GREATER_THAN, LESS_THAN, GREATER_THAN_OR_EQUALS, LESS_THAN_OR_EQUALS,
+DEFINED, NOT_DEFINED
+
+Type Behavior:
+- The filter input type (e.g., dropdown, text field, date picker) is dynamically rendered based on the selected operandType.
+
+Conditional Operators:
+- Logical relationships between multiple filter conditions can be specified as:
+    - AND, OR
+
+Add Nested Filter:
+- Action: Clicking "Add Nested Filter" adds a nested condition group to the current filter set.
+
+Modal Buttons
+- Clear All: Clears all filters from the current session.
+- Cancel: Closes the modal without saving any changes.
+- Apply: Saves the filter configuration, applies the conditions to the report, and closes the modal.
+- Save Filter: Saves the current filter setup for reuse in future sessions.
