@@ -1,6 +1,6 @@
 Show Results Button:
-    On click, the report dashboard is displayed.
-    The Save Changes button appears on the right side of the Show Results button after it is clicked.
+   - On click, the report dashboard is displayed.
+   - The Save Changes button appears on the right side of the Show Results button after it is clicked.
 
 Unsaved Changes Button:
-    This button is displayed on the right side when the user clicks Show Results of the report configuration.
+   - This button is displayed on the right side when the user clicks Show Results of the report configuration.

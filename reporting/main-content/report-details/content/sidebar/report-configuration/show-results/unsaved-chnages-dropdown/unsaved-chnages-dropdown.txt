@@ -1,11 +1,11 @@
 Unsaved Changes Button:
-    This button is displayed on the right side when the user clicks Show Results of the report configuration.
-    if select the save changes button, the report configuration is saved and success alert is displayed.
+    1. This button is displayed on the right side when the user clicks Show Results of the report configuration.
+    2. If select the save changes button, the report configuration is saved and success alert is displayed.
 
 Unsaved Changes Warning
     If the user attempts to navigate away from the page without saving, a warning modal appears with the following message:
     Click 'Continue Editing' to keep editing or 'Discard Changes' to abandon changes.
 
     The modal provides two options:
-        Continue Editing → Proceed with navigation and discard changes.
-        Discard Changes → Confirm discarding unsaved changes.
+       - Continue Editing → Proceed with navigation and discard changes.
+       - Discard Changes → Confirm discarding unsaved changes.
