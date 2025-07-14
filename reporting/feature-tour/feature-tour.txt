@@ -1,0 +1,37 @@
+In the feature tour, the user will learn how to navigate the reporting feature, create and manage reports and dashboards.
+
+   - reportingIntro
+    Intro to the reporting feature—create and manage reports & dashboards to analyze data.
+   - reportingNavigation
+    Learn how to navigate to Reporting from the main menu.
+   - reportingSelectDashboard
+    Select Dashboard in Reporting to view and manage reports.
+   - reportingDashboardIntro
+    Select the Legacy Dashboard to view the default system dashboard.
+   - reportingReportList
+    Switch dashboards to see available reports in each one.
+   - reportingCreateReport
+    Click Create Report to start a new report.
+   - reportingReportConfiguration
+    Set up the report: choose report type, data category, time frame, X-axis grouping, Y-axis dataset, and filters. Then click Show Results to view the report.
+
+   - reportingReportCompletion
+    View the generated report with your data. The Unsaved Changes button appears.
+   - reportingSaveReport
+    Click Save Changes to save the report and return to the dashboard.
+   - reportingCreateDashboard
+    Click Create Dashboard to name and create a new dashboard.
+   - reportingAddReportToDashboard
+    Click Add Report to add reports to the dashboard.
+   - reportingDashboardConfiguration
+    Add more reports via Add Reports and view them on the dashboard.
+   - reportingDashboardCompletion
+    See the completed dashboard with your reports. Unsaved Changes button will appear.
+  -  reportingSaveDashboard
+    Click Save Changes to save the dashboard.
+  - reportingOutro
+    Tour complete! You now know how to navigate, create, and manage reports and dashboards.
+
+Additionally:
+    Each step requires interaction (click/select) to proceed.
+    Users can't skip ahead without completing the current step.
