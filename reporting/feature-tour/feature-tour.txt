@@ -14,7 +14,6 @@ In the feature tour, the user will learn how to navigate the reporting feature, 
     Click Create Report to start a new report.
    - reportingReportConfiguration
     Set up the report: choose report type, data category, time frame, X-axis grouping, Y-axis dataset, and filters. Then click Show Results to view the report.
-
    - reportingReportCompletion
     View the generated report with your data. The Unsaved Changes button appears.
    - reportingSaveReport
