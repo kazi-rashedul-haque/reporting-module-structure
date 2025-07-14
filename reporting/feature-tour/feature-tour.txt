@@ -1,34 +1,34 @@
 In the feature tour, the user will learn how to navigate the reporting feature, create and manage reports and dashboards.
 
-   - reportingIntro
+   - New Reporting Intro
     Intro to the reporting feature—create and manage reports & dashboards to analyze data.
-   - reportingNavigation
+   - reporting Navigation
     Learn how to navigate to Reporting from the main menu.
-   - reportingSelectDashboard
-    Select Dashboard in Reporting to view and manage reports.
-   - reportingDashboardIntro
+   - Select the Legacy Dashboard
     Select the Legacy Dashboard to view the default system dashboard.
-   - reportingReportList
+   - Reporting Dashboard Intro
+    This replicates the Legacy Reporting Engagement Dashboard, showing key engagement and membership stats for your workspace, community, or campaigns.
+   - Report List
     Switch dashboards to see available reports in each one.
-   - reportingCreateReport
+   - Create Report
     Click Create Report to start a new report.
-   - reportingReportConfiguration
+   - Configure Report
     Set up the report: choose report type, data category, time frame, X-axis grouping, Y-axis dataset, and filters. Then click Show Results to view the report.
-   - reportingReportCompletion
+   - Unsaved Changes
     View the generated report with your data. The Unsaved Changes button appears.
-   - reportingSaveReport
+   - Save Report
     Click Save Changes to save the report and return to the dashboard.
-   - reportingCreateDashboard
+   - Create Dashboard
     Click Create Dashboard to name and create a new dashboard.
-   - reportingAddReportToDashboard
-    Click Add Report to add reports to the dashboard.
-   - reportingDashboardConfiguration
-    Add more reports via Add Reports and view them on the dashboard.
-   - reportingDashboardCompletion
+   - Add Report
+    Click add report button to redirect to the Add report to dashboard Modal.
+   - Add Report To Dashboard
+    Select a Report to add reports to the dashboard.
+   - Save Your Dashboard
     See the completed dashboard with your reports. Unsaved Changes button will appear.
-  -  reportingSaveDashboard
+  -  Save Dashboard
     Click Save Changes to save the dashboard.
-  - reportingOutro
+  - reporting Outro
     Tour complete! You now know how to navigate, create, and manage reports and dashboards.
 
 Additionally:
