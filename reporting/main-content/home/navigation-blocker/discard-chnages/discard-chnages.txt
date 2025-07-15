@@ -1,0 +1,3 @@
+When the user clicks the "Discard Changes" button in the warning modal:
+    - Then all unsaved changes will be discarded,
+    - And the user will be redirected to the last saved state of the dashboard.

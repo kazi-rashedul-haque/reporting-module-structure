@@ -13,3 +13,5 @@ Selected Dashboard: The name of the currently active dashboard is displayed at t
 
 Icon Indicator:
 A lightning bolt icon (⚡️) is shown next to system-generated dashboards for visual distinction.
+A default dashboard is indicated with pin icon (📌) to signify it as the default dashboard.
+A favorite dashboard is indicated with a star icon (⭐) to signify it as a favorite dashboard.

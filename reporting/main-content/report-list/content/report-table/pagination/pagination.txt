@@ -1,0 +1,1 @@
+Pagination appears when the number of reports/dashboards exceeds the visible area, specifically when there are more than 10 items.

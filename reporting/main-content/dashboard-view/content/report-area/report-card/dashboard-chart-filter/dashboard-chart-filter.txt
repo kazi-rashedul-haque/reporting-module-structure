@@ -1,0 +1,4 @@
+Filter Icon:
+    The horizontal filter icon is displayed on the report card when filters are applied to the report.
+Filter Condition Display:
+    If a report has filters applied, hovering over the report card shows the WHERE condition as a tooltip.
