@@ -1,0 +1,5 @@
+Warning Modal Title: You have unsaved changes
+Description: Click 'Continue Editing' to keep editing or 'Discard Changes' to abandon changes.
+Continue Editing Button: Continue Editing
+Discard Changes Button: Discard Changes
+close Button: Close
