@@ -1,0 +1,5 @@
+set_default_button
+export_csv_button_disabled
+export_excel_button_disabled
+add_to_favorites_button / remove_from_favorites_button
+clone_button--> A new dashboard is created with the same name as the original, with the suffix '(Copy)', and it opens automatically.

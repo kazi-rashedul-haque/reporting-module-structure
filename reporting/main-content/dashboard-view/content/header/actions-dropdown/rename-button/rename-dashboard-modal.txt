@@ -1,0 +1,19 @@
+rename_button --> onClick = opens the Rename Dashboard modal
+
+Modal Title: Rename Dashboard
+Close_button
+
+Dashboard Name* textbox
+    Placeholder: Enter name
+    Required: true
+    Max length: 120 characters
+    HTML validation: Must not contain HTML tags
+
+Description textarea
+    Placeholder: Write description
+    Required: false
+    Max length: 240 characters
+    HTML validation: Must not contain HTML tags
+
+Cancel_button
+Save_changes_button
