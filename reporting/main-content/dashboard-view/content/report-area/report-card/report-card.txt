@@ -1,7 +1,5 @@
 Report Name:
     Clicking the report name link redirects to the report detail page.
-Pagination:
-    The Pagination is visible when the number of data cards exceeds the visible area of the report card container.
 
 Report Card Reordering:
     All report cards can be dragged and dropped to rearrange the order of reports within the dashboard.
