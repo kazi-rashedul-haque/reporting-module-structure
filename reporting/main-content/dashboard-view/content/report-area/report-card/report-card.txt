@@ -1,5 +1,8 @@
 Report Name:
     Clicking the report name link redirects to the report detail page.
 
+Scrollbar:
+    The scrollbar appears when the report card content exceeds the visible area, allowing users to scroll through the content.
+
 Report Card Reordering:
     All report cards can be dragged and dropped to rearrange the order of reports within the dashboard.
