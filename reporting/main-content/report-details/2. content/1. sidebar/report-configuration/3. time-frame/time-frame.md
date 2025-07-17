@@ -1,3 +1,7 @@
+* **Field Name**: Time Frame
+* **Field Type**: Simple Dropdown
+* **Datepicker**: Yes, for Custom Range selection
+
 ### Values:
 - Last 7 Days
 - Last 30 Days
