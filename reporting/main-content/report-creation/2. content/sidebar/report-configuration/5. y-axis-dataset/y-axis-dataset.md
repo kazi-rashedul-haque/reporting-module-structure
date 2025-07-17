@@ -1,0 +1,36 @@
+### Ideas:
+- `# of Ideas Submitted`
+- `# of Idea Views`
+- `# of Idea Votes`
+- `Idea Up Votes`
+- `Idea Down Votes`
+- `# of Comment Votes`
+- `Comment Up Votes`
+- `Comment Down Votes`
+- `# of Comments`
+- `Engagement Actions`
+- `# of Shares`
+- `Tags Applied`
+- `Reviews Completed`
+- `Estimations Completed`
+- `Refinements Submitted`
+- `Fund Allocations`
+- `Net Activity Score`
+- `Idea Stage Change`
+- `Moderator Activity Count`
+- `Moderator Activity Per Idea`
+- `Selected Ideas`
+- `Implemented Ideas`
+
+### Members:
+- `Total Members`
+- `Engaged Members`
+- `New Members`
+- `Total Logins`
+- `Unique Login Count`
+- `Total Visits`
+- `Unique Visit Count`
+- `Kudos Given`
+- `Top Idea Submitter` (Report Type: Metric Card)
+- `Top Voter` (Report Type: Metric Card)
+- `Top Commenter` (Report Type: Metric Card)
