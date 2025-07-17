@@ -1,0 +1,3 @@
+### Values:
+- Ideas
+- Members
