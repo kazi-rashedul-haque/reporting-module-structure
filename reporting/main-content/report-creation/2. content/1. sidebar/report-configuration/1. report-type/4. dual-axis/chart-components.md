@@ -3,9 +3,9 @@
 * **Time Frame**
 * **X Axis**: Time Properties, Idea Properties, or Member Properties.
 * **Y Axis Left (Bar)**: Ideas or Members `Data Grouping` values.
-  1. Add Dataset: Same values as the `Y Axis Left (Bar)`.
+  1. Add Dataset: Same values as the `Y Axis Left (Bar)`, except for the selected values.
 * **Y Axis Right (Line)**: Ideas or Members `Data Grouping` values.
-  1. Add Dataset: Same values as the `Y Axis Right (Line)`.
+  1. Add Dataset: Same values as the `Y Axis Right (Line)`, except for the selected values.
 * **Add Filter**
 
 ### View:
