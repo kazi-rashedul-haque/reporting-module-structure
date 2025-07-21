@@ -1,0 +1,1 @@
+Trigger: Clicking the `<filter_name>` button loads the saved filter correctly and ready to apply.
