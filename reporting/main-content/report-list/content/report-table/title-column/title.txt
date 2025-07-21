@@ -1,4 +1,4 @@
 id_link
 name_text
 description_text
-table_icon--> based on the report type
+chart_type_icon--> based on the report type

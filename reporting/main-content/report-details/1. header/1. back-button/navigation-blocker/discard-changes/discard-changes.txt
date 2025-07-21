@@ -1,0 +1,4 @@
+when click on the Discard Changes button in the warning modal:
+    Then the warning modal will close,
+    And it redirected to the dashboard view,
+    And the changes made to the dashboard will be discarded.
