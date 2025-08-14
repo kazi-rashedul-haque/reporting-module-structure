@@ -1,33 +1,14 @@
-# Verify Next button is disabled with empty report name
+**Title:** Verify Next button is disabled with empty report name.
 
-## Test Case ID
-TC_NextButton_002
+**Test Steps:**
+1. Login to the application as an authenticated user.
+2. Navigate to the Reports page.
+3. Click the Create Report button to open the modal.
+4. Leave the Report Name field empty.
+5. Optionally enter a description "Test description".
+6. Attempt to click the Next button.
+7. Verify the button state and system response.
+8. Verify any error message that appears.
 
-## Description
-Verify that the Next button is disabled or shows validation error when the report name field is empty.
-
-## Pre-conditions
-- User is logged in
-- User is on the Reports page
-- Create Report modal is open
-
-## Test Steps
-1. Leave the Report Name field empty
-2. Optionally enter a description
-3. Attempt to click the Next button
-4. Verify button state and system response
-5. Verify error message if displayed
-
-## Expected Results
-- Next button should be disabled with empty report name, OR
-- Clicking Next should show validation error
-- User should not proceed to the next step
-- Error message should indicate report name is required
-- Description field value should not affect validation
-
-## Test Data
-- Report name: "" (empty)
-- Description: "Test description" (optional)
-
-## Priority
-High
+**Expected Result:**
+The Next button should be disabled when the report name field is empty or should show a validation error when clicked, an error message should clearly indicate that the report name is required, the user should not be able to proceed to the next step, and the description field value should not affect the validation requirement for the report name.

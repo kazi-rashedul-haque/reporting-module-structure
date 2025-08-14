@@ -1,35 +1,17 @@
-# Verify Cancel button with maximum character data
+**Title:** Verify Cancel button with maximum character data.
 
-## Test Case ID
-TC_CancelButton_004
+**Test Steps:**
+1. Login to the application as an authenticated user.
+2. Navigate to the Reports page.
+3. Click the Create Report button to open the modal.
+4. Enter exactly 120 characters in the Report Name field.
+5. Enter exactly 240 characters in the Description field.
+6. Verify both character counters show maximum values "120/120" and "240/240".
+7. Click the Cancel button.
+8. Verify the modal closes immediately.
+9. Click the Create Report button again to reopen the modal.
+10. Verify both fields are completely empty.
+11. Verify character counters reset to "0/120" and "0/240".
 
-## Description
-Verify that the Cancel button works correctly when fields contain maximum allowed characters.
-
-## Pre-conditions
-- User is logged in
-- User is on the Reports page
-- Create Report modal is open
-
-## Test Steps
-1. Enter exactly 120 characters in the Report Name field
-2. Enter exactly 240 characters in the Description field
-3. Verify both character counters show maximum values
-4. Click the Cancel button
-5. Verify the modal closes
-6. Reopen the Create Report modal
-7. Verify both fields are empty
-
-## Expected Results
-- Cancel button should work normally with maximum character data
-- Modal should close immediately
-- All data (including maximum length data) should be discarded
-- When modal is reopened, both fields should be empty
-- Character counters should reset to "0/120" and "0/240"
-
-## Test Data
-- Report name: 120-character string
-- Description: 240-character string
-
-## Priority
-Medium
+**Expected Result:**
+The Cancel button should work normally even when fields contain maximum allowed characters, the modal should close immediately, all data including maximum length content should be completely discarded, and when the modal is reopened, both fields should be empty with character counters properly reset to zero values.

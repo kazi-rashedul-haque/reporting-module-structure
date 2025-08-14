@@ -1,28 +1,12 @@
-# Verify error handling for empty report name field
+**Title:** Verify error handling for empty report name field.
 
-## Test Case ID
-TC_ReportName_002
+**Test Steps:**
+1. Login to the application as an authenticated user.
+2. Navigate to the Reports page.
+3. Click the Create Report button to open the modal.
+4. Leave the Report Name field empty.
+5. Attempt to click the Next button.
+6. Verify error message or validation behavior appears.
 
-## Description
-Verify that appropriate error handling occurs when the report name field is left empty.
-
-## Pre-conditions
-- User is logged in
-- User is on the Reports page
-- Create Report modal is open
-
-## Test Steps
-1. Leave the Report Name field empty
-2. Attempt to click the Next button
-3. Verify error message or validation behavior
-
-## Expected Results
-- Next button should be disabled or show validation error
-- Error message should indicate that report name is required
-- User should not be able to proceed to the next step
-
-## Test Data
-- Empty input: ""
-
-## Priority
-High
+**Expected Result:**
+The Next button should be disabled or show a validation error when the report name field is empty, an error message should clearly indicate that the report name is required, and the user should not be able to proceed to the next step without entering a valid report name.

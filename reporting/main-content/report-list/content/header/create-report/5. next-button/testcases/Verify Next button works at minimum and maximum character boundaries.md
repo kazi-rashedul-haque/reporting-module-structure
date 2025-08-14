@@ -1,36 +1,17 @@
-# Verify Next button works at minimum and maximum character boundaries
+**Title:** Verify Next button works at minimum and maximum character boundaries.
 
-## Test Case ID
-TC_NextButton_004
+**Test Steps:**
+1. Login to the application as an authenticated user.
+2. Navigate to the Reports page.
+3. Click the Create Report button to open the modal.
+4. Enter minimum report name "A" (1 character) and leave description empty.
+5. Click Next and verify successful progression.
+6. Return and test with maximum report name (120 characters) and empty description.
+7. Click Next and verify successful progression.
+8. Return and test with valid report name and maximum description (240 characters).
+9. Click Next and verify successful progression.
+10. Return and test with maximum length for both fields.
+11. Click Next and verify successful progression.
 
-## Description
-Verify that the Next button works correctly when report name and description are at their minimum and maximum character limits.
-
-## Pre-conditions
-- User is logged in
-- User is on the Reports page
-- Create Report modal is open
-
-## Test Steps
-1. Test with minimum report name (1 character) and empty description
-2. Click Next and verify successful progression
-3. Test with maximum report name (120 characters) and empty description
-4. Click Next and verify successful progression
-5. Test with valid report name and maximum description (240 characters)
-6. Click Next and verify successful progression
-7. Test with maximum length for both fields
-8. Click Next and verify successful progression
-
-## Expected Results
-- Next button should work at all valid character boundaries
-- User should successfully proceed to Report Configuration page
-- All boundary inputs should be accepted
-- Data should be preserved correctly
-
-## Test Data
-- Min report name: "A" (1 character)
-- Max report name: 120-character string
-- Max description: 240-character string
-
-## Priority
-High
+**Expected Result:**
+The Next button should work correctly at all valid character boundaries, users should successfully proceed to the Report Configuration page in all boundary test cases, all boundary inputs should be accepted without errors, and data should be preserved correctly during navigation for all character limit combinations.

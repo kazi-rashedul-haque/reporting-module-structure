@@ -1,4 +1,4 @@
-**Title:** Verify that the modal title text matches the expected string "Create Report" exactly.
+**Title:** Verify that the modal title text matches the expected string "Create Report" exactly
 
 **Test Steps:**
 

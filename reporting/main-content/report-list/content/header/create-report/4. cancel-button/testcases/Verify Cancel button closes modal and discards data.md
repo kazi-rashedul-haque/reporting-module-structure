@@ -1,34 +1,15 @@
-# Verify Cancel button closes modal and discards data
+**Title:** Verify Cancel button closes modal and discards data.
 
-## Test Case ID
-TC_CancelButton_001
+**Test Steps:**
+1. Login to the application as an authenticated user.
+2. Navigate to the Reports page.
+3. Click the Create Report button to open the modal.
+4. Enter "Test Report Name" in the Report Name field.
+5. Enter "Test description text" in the Description field.
+6. Click the Cancel button.
+7. Verify the modal closes immediately.
+8. Click the Create Report button again to reopen the modal.
+9. Verify both Report Name and Description fields are empty.
 
-## Description
-Verify that clicking the Cancel button closes the Create Report modal and discards any entered data.
-
-## Pre-conditions
-- User is logged in
-- User is on the Reports page
-- Create Report modal is open
-
-## Test Steps
-1. Enter some text in the Report Name field
-2. Enter some text in the Description field
-3. Click the Cancel button
-4. Verify the modal closes
-5. Reopen the Create Report modal
-6. Verify both fields are empty (data was discarded)
-
-## Expected Results
-- Modal should close immediately when Cancel is clicked
-- All entered data should be discarded
-- User should return to the Reports page
-- When modal is reopened, fields should be empty
-- No data should be saved or persisted
-
-## Test Data
-- Report name: "Test Report Name"
-- Description: "Test description text"
-
-## Priority
-High
+**Expected Result:**
+The modal should close immediately when the Cancel button is clicked, all entered data should be completely discarded, the user should return to the Reports page, and when the modal is reopened, all fields should be empty with no data persisted from the previous session.

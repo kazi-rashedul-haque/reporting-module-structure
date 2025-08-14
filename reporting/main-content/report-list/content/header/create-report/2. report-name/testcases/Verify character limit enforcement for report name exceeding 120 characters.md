@@ -1,33 +1,14 @@
-# Verify character limit enforcement for report name exceeding 120 characters
+**Title:** Verify character limit enforcement for report name exceeding 120 characters.
 
-## Test Case ID
-TC_ReportName_004
+**Test Steps:**
+1. Login to the application as an authenticated user.
+2. Navigate to the Reports page.
+3. Click the Create Report button to open the modal.
+4. Click on the Report Name field.
+5. Enter or paste text containing 121 or more characters.
+6. Observe system behavior for truncation, error message, or input prevention.
+7. Verify the character counter display shows appropriate values.
+8. Attempt to submit the form if the text was accepted.
 
-## Description
-Verify that the system prevents or handles input that exceeds the 120-character limit for report names.
-
-## Pre-conditions
-- User is logged in
-- User is on the Reports page
-- Create Report modal is open
-
-## Test Steps
-1. Click on the Report Name field
-2. Enter or paste text exceeding 120 characters
-3. Observe system behavior (truncation, error message, or prevention)
-4. Verify character counter display
-5. Attempt to submit if text was accepted
-
-## Expected Results
-- System should either:
-  - Prevent input beyond 120 characters, OR
-  - Truncate input to 120 characters, OR
-  - Show error message for exceeding limit
-- Character counter should not exceed "120/120"
-- If error, user should not be able to proceed
-
-## Test Data
-- Long input: 121+ character string
-
-## Priority
-High
+**Expected Result:**
+The system should prevent input beyond 120 characters, truncate input to exactly 120 characters, or display an error message when the limit is exceeded. The character counter should never exceed "120/120" and if an error occurs, the user should not be able to proceed to the next step.

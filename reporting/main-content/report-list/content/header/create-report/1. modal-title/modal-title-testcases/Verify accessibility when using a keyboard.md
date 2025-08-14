@@ -1,4 +1,4 @@
-**Title:** Verify accessibility when using a keyboard.
+**Title:** Verify accessibility when using a keyboard
 
 **Test Steps:**
 1. Login to the Workspace as Admin.

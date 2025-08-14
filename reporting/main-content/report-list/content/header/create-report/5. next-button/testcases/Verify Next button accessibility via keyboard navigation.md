@@ -1,34 +1,15 @@
-# Verify Next button accessibility via keyboard navigation
+**Title:** Verify Next button accessibility via keyboard navigation.
 
-## Test Case ID
-TC_NextButton_006
+**Test Steps:**
+1. Login to the application as an authenticated user.
+2. Navigate to the Reports page.
+3. Click the Create Report button to open the modal.
+4. Enter a valid report name "Test Report" using keyboard.
+5. Enter a valid description "Test description" using keyboard.
+6. Use the Tab key to navigate to the Next button.
+7. Verify the Next button receives focus with visual indication.
+8. Press the Enter key to activate the Next button.
+9. Verify navigation to the Report Configuration page occurs.
 
-## Description
-Verify that the Next button can be accessed and activated using keyboard navigation and Enter key.
-
-## Pre-conditions
-- User is logged in
-- User is on the Reports page
-- Create Report modal is open
-
-## Test Steps
-1. Enter a valid report name using keyboard
-2. Enter a valid description using keyboard (optional)
-3. Use Tab key to navigate to the Next button
-4. Verify the Next button receives focus (visual indication)
-5. Press Enter key to activate the Next button
-6. Verify navigation to Report Configuration page
-
-## Expected Results
-- Next button should be accessible via keyboard navigation
-- Button should show focus indicator when selected
-- Enter key should activate the button
-- User should proceed to Report Configuration page
-- Keyboard interaction should work the same as mouse click
-
-## Test Data
-- Report name: "Test Report"
-- Description: "Test description"
-
-## Priority
-Medium
+**Expected Result:**
+The Next button should be accessible via keyboard navigation, display a clear focus indicator when selected, respond to Enter key activation, navigate the user to the Report Configuration page when activated via keyboard, and provide identical functionality to mouse click interaction.

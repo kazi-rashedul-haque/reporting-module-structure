@@ -1,33 +1,16 @@
-# Verify Next button validation with whitespace-only report name
+**Title:** Verify Next button validation with whitespace-only report name.
 
-## Test Case ID
-TC_NextButton_003
+**Test Steps:**
+1. Login to the application as an authenticated user.
+2. Navigate to the Reports page.
+3. Click the Create Report button to open the modal.
+4. Enter only whitespace characters "   " in the Report Name field.
+5. Enter a valid description "Valid description".
+6. Attempt to click the Next button.
+7. Verify the button state and validation response.
+8. Clear and test with tabs "\t\t" in the Report Name field.
+9. Attempt to click the Next button again.
+10. Verify error message appears.
 
-## Description
-Verify that the Next button properly validates and prevents submission when the report name contains only whitespace characters.
-
-## Pre-conditions
-- User is logged in
-- User is on the Reports page
-- Create Report modal is open
-
-## Test Steps
-1. Enter only whitespace characters in the Report Name field (spaces, tabs)
-2. Enter a valid description (optional)
-3. Attempt to click the Next button
-4. Verify button state and validation response
-5. Verify error message if displayed
-
-## Expected Results
-- Next button should be disabled or show validation error
-- User should not proceed to the next step
-- Error message should indicate invalid report name
-- System should treat whitespace-only input as invalid
-
-## Test Data
-- Report name: "   " (spaces only)
-- Report name: "\t\t" (tabs only)
-- Description: "Valid description"
-
-## Priority
-High
+**Expected Result:**
+The Next button should be disabled or show validation error when the report name contains only whitespace characters, an error message should indicate that a valid report name is required, the user should not be able to proceed to the next step, and the system should treat whitespace-only input as invalid regardless of whether spaces or tabs are used.

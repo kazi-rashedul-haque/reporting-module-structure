@@ -3,7 +3,7 @@
 **Test Steps:**
 
 1. Login to the Workspace as Admin.
-2.Navigate to the Reporting Page using keyboard navigation (Tab key).
+2. Navigate to the Reporting Page using keyboard navigation (Tab key).
 3. Press Enter on the Create Report button.
 
 **Expected Result:**

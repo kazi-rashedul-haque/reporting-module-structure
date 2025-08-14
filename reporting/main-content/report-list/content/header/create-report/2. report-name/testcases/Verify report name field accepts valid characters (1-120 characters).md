@@ -1,32 +1,14 @@
-# Verify report name field accepts valid characters (1-120 characters)
+**Title:** Verify report name field accepts valid characters (1-120 characters).
 
-## Test Case ID
-TC_ReportName_001
+**Test Steps:**
+1. Login to the application as an authenticated user.
+2. Navigate to the Reports page.
+3. Click the Create Report button to open the modal.
+4. Click on the Report Name field.
+5. Enter a valid report name "Test Report".
+6. Verify the character counter updates correctly.
+7. Clear the field and enter text up to exactly 120 characters.
+8. Verify the character counter shows "120/120".
 
-## Description
-Verify that the report name field accepts valid input with characters between 1 and 120 characters.
-
-## Pre-conditions
-- User is logged in
-- User is on the Reports page
-- Create Report modal is open
-
-## Test Steps
-1. Click on the Report Name field
-2. Enter a valid report name (e.g., "Test Report")
-3. Verify the character counter updates correctly
-4. Enter text up to 120 characters
-5. Verify the character counter shows "120/120"
-
-## Expected Results
-- Report name field should accept the input
-- Character counter should update correctly
-- Field should accept exactly 120 characters
-- No error message should be displayed
-
-## Test Data
-- Valid input: "Test Report"
-- Max length input: 120 character string
-
-## Priority
-High
+**Expected Result:**
+The report name field should accept all valid input between 1 and 120 characters, the character counter should update correctly for all inputs, the field should accept exactly 120 characters without any errors, and no error messages should be displayed for valid input lengths.

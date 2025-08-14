@@ -1,33 +1,15 @@
-# Verify modal closes via Escape key shortcut
+**Title:** Verify modal closes via Escape key shortcut.
 
-## Test Case ID
-TC_CloseButton_003
+**Test Steps:**
+1. Login to the application as an authenticated user.
+2. Navigate to the Reports page.
+3. Click the Create Report button to open the modal.
+4. Enter "Test Report" in the Report Name field.
+5. Enter "Test description" in the Description field.
+6. Press the Escape key on the keyboard.
+7. Verify the modal closes immediately.
+8. Click the Create Report button again to reopen the modal.
+9. Verify both fields are empty and data was discarded.
 
-## Description
-Verify that the modal can be closed using the Escape key keyboard shortcut.
-
-## Pre-conditions
-- User is logged in
-- User is on the Reports page
-- Create Report modal is open
-
-## Test Steps
-1. Enter some data in the form fields
-2. Press the Escape key on the keyboard
-3. Verify the modal closes
-4. Reopen the Create Report modal
-5. Verify the fields are empty (data was discarded)
-
-## Expected Results
-- Modal should close when Escape key is pressed
-- All entered data should be discarded
-- User should return to the Reports page
-- Escape key should work the same as clicking the Close button
-- When modal is reopened, fields should be empty
-
-## Test Data
-- Report name: "Test Report"
-- Description: "Test description"
-
-## Priority
-Medium
+**Expected Result:**
+The modal should close when the Escape key is pressed, all entered data should be completely discarded, the user should return to the Reports page, the Escape key should work identically to clicking the Close button, and when the modal is reopened, all fields should be empty with no persisted data.

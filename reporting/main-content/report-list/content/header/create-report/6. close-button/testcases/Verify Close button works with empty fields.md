@@ -1,32 +1,13 @@
-# Verify Close button works with empty fields
+**Title:** Verify Close button works with empty fields.
 
-## Test Case ID
-TC_CloseButton_002
+**Test Steps:**
+1. Login to the application as an authenticated user.
+2. Navigate to the Reports page.
+3. Click the Create Report button to open the modal.
+4. Ensure both Report Name and Description fields are empty.
+5. Click the Close button (X) in the modal header.
+6. Verify the modal closes immediately.
+7. Verify the user returns to the Reports page.
 
-## Description
-Verify that clicking the Close button (X) works correctly when both fields are empty.
-
-## Pre-conditions
-- User is logged in
-- User is on the Reports page
-- Create Report modal is open
-- Both Report Name and Description fields are empty
-
-## Test Steps
-1. Ensure both Report Name and Description fields are empty
-2. Click the Close button (X) in the modal header
-3. Verify the modal closes
-4. Verify user returns to Reports page
-
-## Expected Results
-- Modal should close immediately when Close button is clicked
-- User should return to the Reports page
-- No errors or unexpected behavior should occur
-- Close button should function normally with empty fields
-
-## Test Data
-- Report name: "" (empty)
-- Description: "" (empty)
-
-## Priority
-Medium
+**Expected Result:**
+The modal should close immediately when the Close button is clicked even with empty fields, the user should return to the Reports page without any errors or unexpected behavior, and the Close button should function normally regardless of whether fields contain data or are empty.
