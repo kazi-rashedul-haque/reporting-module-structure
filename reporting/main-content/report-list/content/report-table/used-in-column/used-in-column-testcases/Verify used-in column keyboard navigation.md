@@ -1,7 +1,7 @@
 **Title:** Verify used-in column keyboard navigation
 
 **Preconditions:**
-  1. At least one report exists with used-in count > 0.
+  1. At least one report exists with used-in count.
 
 **Test Steps:**
   1. Login to the workspace as an authenticated user.
