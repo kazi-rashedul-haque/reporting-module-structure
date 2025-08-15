@@ -1,0 +1,465 @@
+Subject: [PATCH] Add test cases for dashboard functionality and UI interactions
+---
+Index: reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify favorite icon accessibility with keyboard navigation.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify favorite icon accessibility with keyboard navigation.md b/reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify favorite icon accessibility with keyboard navigation.md
+new file mode 100644
+--- /dev/null	(date 1755235616148)
++++ b/reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify favorite icon accessibility with keyboard navigation.md	(date 1755235616148)
+@@ -0,0 +1,18 @@
++**Title:** Verify favorite icon accessibility with keyboard navigation.
++
++**Test Steps:**
++1. Login to the application as an authenticated user.
++2. Navigate to the Reports page.
++3. Use Tab key to navigate to the first favorite icon in the report table.
++4. Verify the favorite icon receives focus and is highlighted.
++5. Press Enter or Space key to activate the favorite functionality.
++6. Verify the icon state changes and success message appears.
++7. Continue tabbing to navigate to the next favorite icon.
++8. Test keyboard activation on multiple report rows.
++
++**Expected Result:**
++- Favorite icons should be accessible via keyboard navigation using Tab key.
++- Icons should show clear focus indicators when selected.
++- Enter and Space keys should successfully toggle the favorite state.
++- Success messages should appear when activated via keyboard.
++- Keyboard navigation should work consistently across all report rows.
+\ No newline at end of file
+Index: reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify favorite icon changes to black when report is added to favorites.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify favorite icon changes to black when report is added to favorites.md b/reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify favorite icon changes to black when report is added to favorites.md
+new file mode 100644
+--- /dev/null	(date 1755235582166)
++++ b/reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify favorite icon changes to black when report is added to favorites.md	(date 1755235582166)
+@@ -0,0 +1,15 @@
++**Title:** Verify favorite icon changes to black when report is added to favorites.
++
++**Test Steps:**
++1. Login to the application as an authenticated user.
++2. Navigate to the Reports page.
++3. Locate a report in the report table that is not currently favorited (white star icon).
++4. Click on the favorite star icon for that report.
++5. Observe the icon color change.
++6. Verify the success alert message appears.
++
++**Expected Result:**
++- The star icon should change from white to black immediately after clicking.
++- An alert should display: "Report has been successfully added to favorites."
++- The report should be visually marked as favorited with the black star icon.
++- No system errors should occur during the favoriting process.
+\ No newline at end of file
+Index: reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify favorite icon hover state and cursor behavior.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify favorite icon hover state and cursor behavior.md b/reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify favorite icon hover state and cursor behavior.md
+new file mode 100644
+--- /dev/null	(date 1755235667381)
++++ b/reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify favorite icon hover state and cursor behavior.md	(date 1755235667381)
+@@ -0,0 +1,17 @@
++**Title:** Verify favorite icon hover state and cursor behavior.
++
++**Test Steps:**
++1. Login to the application as an authenticated user.
++2. Navigate to the Reports page.
++3. Hover the mouse cursor over a favorite icon (star) in any report row.
++4. Observe the cursor change and any visual hover effects.
++5. Move the cursor away from the icon and verify hover state is removed.
++6. Test hover behavior on both favorited (black) and unfavorited (white) icons.
++7. Verify hover behavior is consistent across all report rows.
++
++**Expected Result:**
++- The cursor should change to a pointer (hand) when hovering over favorite icons.
++- Visual hover effects should provide clear feedback that the element is interactive.
++- Hover states should be applied and removed consistently.
++- Both black (favorited) and white (unfavorited) icons should have proper hover behavior.
++- The hover experience should be consistent across all favorite icons in the table.
+\ No newline at end of file
+Index: reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify favorite functionality works with filtered search results.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify favorite functionality works with filtered search results.md b/reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify favorite functionality works with filtered search results.md
+new file mode 100644
+--- /dev/null	(date 1755235680267)
++++ b/reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify favorite functionality works with filtered search results.md	(date 1755235680267)
+@@ -0,0 +1,19 @@
++**Title:** Verify favorite functionality works with filtered search results.
++
++**Test Steps:**
++1. Login to the application as an authenticated user.
++2. Navigate to the Reports page.
++3. Use the search field to filter reports (e.g., search for "Ideas").
++4. Verify that filtered results display with favorite icons.
++5. Click on a favorite icon for one of the filtered reports.
++6. Verify the icon state changes and success message appears.
++7. Clear the search filter to show all reports.
++8. Verify the favorite state is maintained for the previously modified report.
++9. Test unfavoriting a report while search filter is active.
++
++**Expected Result:**
++- Favorite icons should be functional in filtered search results.
++- Favorite/unfavorite actions should work correctly on filtered reports.
++- Success messages should appear when favoriting/unfavoriting filtered reports.
++- Favorite states should persist when search filters are cleared or changed.
++- The functionality should be consistent whether viewing all reports or filtered results.
+\ No newline at end of file
+Index: reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify favorite toggle functionality works correctly.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify favorite toggle functionality works correctly.md b/reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify favorite toggle functionality works correctly.md
+new file mode 100644
+--- /dev/null	(date 1755235604049)
++++ b/reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify favorite toggle functionality works correctly.md	(date 1755235604049)
+@@ -0,0 +1,17 @@
++**Title:** Verify favorite toggle functionality works correctly.
++
++**Test Steps:**
++1. Login to the application as an authenticated user.
++2. Navigate to the Reports page.
++3. Locate a report in the report table with a white star icon (not favorited).
++4. Click on the favorite star icon to add to favorites.
++5. Verify the icon changes to black and success message appears.
++6. Click on the same favorite star icon again to remove from favorites.
++7. Verify the icon changes back to white and removal message appears.
++8. Repeat steps 4-7 multiple times to test toggle reliability.
++
++**Expected Result:**
++- The favorite toggle should work consistently in both directions (add/remove).
++- Each click should alternate between favorited (black) and unfavorited (white) states.
++- Appropriate success messages should appear for both add and remove actions.
++- The toggle functionality should be reliable and work correctly on multiple iterations.
+\ No newline at end of file
+Index: reporting/main-content/report-list/content/report-table/action-column/more-actions-toggle/add-to-dashboard-button/add-to-dashboard-button-testcases/Verify that multiple dashboards can be selected if supported.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/reporting/main-content/report-list/content/report-table/action-column/more-actions-toggle/add-to-dashboard-button/add-to-dashboard-button-testcases/Verify that multiple dashboards can be selected if supported.md b/reporting/main-content/report-list/content/report-table/action-column/more-actions-toggle/add-to-dashboard-button/add-to-dashboard-button-testcases/Verify that multiple dashboards can be selected if supported.md
+new file mode 100644
+--- /dev/null	(date 1755250127986)
++++ b/reporting/main-content/report-list/content/report-table/action-column/more-actions-toggle/add-to-dashboard-button/add-to-dashboard-button-testcases/Verify that multiple dashboards can be selected if supported.md	(date 1755250127986)
+@@ -0,0 +1,25 @@
++**Title:** Verify that multiple dashboards can be selected if supported
++
++**Preconditions:**
++1. Multiple dashboards exist in the system (at least 2).
++2. Add to Dashboard modal is open with search results displayed.
++3. Multiple dashboard options are visible with checkboxes.
++
++**Test Steps:**
++1. Login to the workspace as an authenticated user.
++2. Navigate to the Reports page.
++3. Select a report from the report list.
++4. Click the "More Actions" button in the action column of the selected report.
++5. Click the "Add to Dashboard" button from the dropdown menu.
++6. Open the Add to Dashboard modal
++7. Search for and display multiple available dashboards.
++8. Verify that multiple dashboard options appear with checkboxes.
++9. Click the checkbox next to the first dashboard option.
++10. Observe the first selection state.
++11. Click the checkbox next to the second dashboard option.
++12. Verify both checkboxes remain selected.
++13. Check the "Add to Dashboard" button state and text.
++14. Observe the selection count and button behavior.
++
++**Expected Result:**
++  Multiple checkboxes can be selected simultaneously without deselecting previous choices, first checkbox remains checked when second is selected, second checkbox becomes checked alongside the first, "Add to Dashboard" button remains enabled throughout the selection process, button text updates to show the number of selected dashboards (e.g., "Add to 2 Dashboards"), all selected dashboards are visually indicated as checked with appropriate styling, selection counter or indicator shows current number of selected items, system allows multiple selections if supported by the business logic.
+\ No newline at end of file
+Index: reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify favorite state persists after page refresh.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify favorite state persists after page refresh.md b/reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify favorite state persists after page refresh.md
+new file mode 100644
+--- /dev/null	(date 1755235626672)
++++ b/reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify favorite state persists after page refresh.md	(date 1755235626672)
+@@ -0,0 +1,17 @@
++**Title:** Verify favorite state persists after page refresh.
++
++**Test Steps:**
++1. Login to the application as an authenticated user.
++2. Navigate to the Reports page.
++3. Add several reports to favorites by clicking their star icons.
++4. Verify the icons change to black and success messages appear.
++5. Refresh the page (F5 or browser refresh button).
++6. Wait for the page to reload completely.
++7. Observe the favorite icons for the previously favorited reports.
++8. Test removing a favorite and refreshing again.
++
++**Expected Result:**
++- Reports that were marked as favorites should retain their black star icons after page refresh.
++- The favorite state should be properly persisted in the system.
++- Newly loaded page should display the correct favorite status for all reports.
++- No loss of favorite data should occur during page refresh or navigation.
+\ No newline at end of file
+Index: reporting/main-content/report-list/content/report-table/action-column/more-actions-toggle/add-to-dashboard-button/add-to-dashboard-button-testcases/Verify that the search textbox displays the correct placeholder text.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/reporting/main-content/report-list/content/report-table/action-column/more-actions-toggle/add-to-dashboard-button/add-to-dashboard-button-testcases/Verify that the search textbox displays the correct placeholder text.md b/reporting/main-content/report-list/content/report-table/action-column/more-actions-toggle/add-to-dashboard-button/add-to-dashboard-button-testcases/Verify that the search textbox displays the correct placeholder text.md
+new file mode 100644
+--- /dev/null	(date 1755250427263)
++++ b/reporting/main-content/report-list/content/report-table/action-column/more-actions-toggle/add-to-dashboard-button/add-to-dashboard-button-testcases/Verify that the search textbox displays the correct placeholder text.md	(date 1755250427263)
+@@ -0,0 +1,28 @@
++**Title:** Verify that the search textbox displays the correct placeholder text
++
++**Preconditions:**
++1. At least one report exists in the Reports table.
++2. At least one dashboard exists in the system.
++
++**Test Steps:**
++1. Login to the workspace as an authenticated user.
++2. Navigate to the Reports page.
++3. Locate a report row in the reports table.
++4. Click on the "More Actions" button (three dots) for any report.
++5. Click on "Add to Dashboard" from the dropdown menu.
++6. The Add to Dashboard modal should appear on the screen.
++7. Locate the search textbox in the modal.
++8. Observe the textbox when it's empty and unfocused.
++9. Check the placeholder text displayed.
++10. Click in the search textbox to focus on it.
++11. Verify placeholder text behavior when focused.
++12. Start typing in the textbox.
++13. Observe placeholder text behavior while typing.
++14. Clear all text from the textbox.
++15. Verify placeholder text reappears when empty.
++
++**Expected Result:**
++1. Search textbox displays placeholder text "Search" when empty and unfocused
++2. Placeholder text remains visible when textbox is focused but empty
++3. Placeholder text disappears immediately when user starts typing
++4. Placeholder text reappears when all text is cleared from the textbox
+\ No newline at end of file
+Index: reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify favorite column displays correctly across all reports.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify favorite column displays correctly across all reports.md b/reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify favorite column displays correctly across all reports.md
+new file mode 100644
+--- /dev/null	(date 1755236734269)
++++ b/reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify favorite column displays correctly across all reports.md	(date 1755236734269)
+@@ -0,0 +1,16 @@
++**Title:** Verify favorite column displays correctly across all reports.
++
++**Test Steps:**
++1. Login to the application as an authenticated user.
++2. Navigate to the Reports page.
++3. Scroll through the entire report table to view all reports.
++4. Verify that each report row has a favorite icon in the first column.
++5. Check that icons are properly aligned and sized consistently.
++6. Navigate to the next page of reports (if pagination exists).
++7. Verify favorite icons are present and functional on all pages.
++
++**Expected Result:**
++- Every report row should have a favorite icon (star) in the first column.
++- All favorite icons should be consistently sized and aligned.
++- Icons should be clearly visible and clickable across all reports.
++- The favorite column should display correctly on all pages of the report table.
+\ No newline at end of file
+Index: reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify favorite functionality with rapid consecutive clicks.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify favorite functionality with rapid consecutive clicks.md b/reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify favorite functionality with rapid consecutive clicks.md
+new file mode 100644
+--- /dev/null	(date 1755235637031)
++++ b/reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify favorite functionality with rapid consecutive clicks.md	(date 1755235637031)
+@@ -0,0 +1,18 @@
++**Title:** Verify favorite functionality with rapid consecutive clicks.
++
++**Test Steps:**
++1. Login to the application as an authenticated user.
++2. Navigate to the Reports page.
++3. Locate a report with a white star icon (not favorited).
++4. Click the favorite icon rapidly multiple times in quick succession (5-10 clicks).
++5. Observe the icon state and any alert messages.
++6. Wait for all processing to complete.
++7. Verify the final state of the favorite icon.
++8. Test the same scenario starting with a favorited report (black star).
++
++**Expected Result:**
++- The system should handle rapid clicks gracefully without errors.
++- The final state should be consistent and reflect the last valid action.
++- No duplicate alert messages should appear for the same action.
++- The system should prevent double-processing of the same request.
++- No system errors or unexpected behavior should occur during rapid clicking.
+\ No newline at end of file
+Index: reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify alert message timing and dismissal behavior.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify alert message timing and dismissal behavior.md b/reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify alert message timing and dismissal behavior.md
+new file mode 100644
+--- /dev/null	(date 1755236734275)
++++ b/reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify alert message timing and dismissal behavior.md	(date 1755236734275)
+@@ -0,0 +1,18 @@
++**Title:** Verify alert message timing and dismissal behavior for favorite reports
++
++**Test Steps:**
++1. Login to the application as an authenticated user.
++2. Navigate to the Reports page.
++3. Click on a favorite icon to add a report to favorites.
++4. Observe the alert message "Report has been successfully added to favorites."
++5. Measure the duration the alert message remains visible.
++6. Test if the alert can be manually dismissed (if applicable).
++7. Click another favorite icon to remove a report from favorites.
++8. Observe the alert message "Report has been successfully removed from favorites."
++9. Verify the timing consistency between add and remove alert messages.
++
++**Expected Result:**
++- Alert messages should appear after clicking the favorite icon.
++- Messages should remain visible for an appropriate duration (3-5 seconds typically).
++- Alert messages should dismiss automatically or provide a manual dismissal option.
++- Both add and remove alert messages should have consistent timing and behavior.
+\ No newline at end of file
+Index: reporting/main-content/report-list/content/report-table/action-column/more-actions-toggle/add-to-dashboard-button/add-to-dashboard-button-testcases/Verify the add to dashboard button enabled.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/reporting/main-content/report-list/content/report-table/action-column/more-actions-toggle/add-to-dashboard-button/add-to-dashboard-button-testcases/Verify the add to dashboard button enabled.md b/reporting/main-content/report-list/content/report-table/action-column/more-actions-toggle/add-to-dashboard-button/add-to-dashboard-button-testcases/Verify the add to dashboard button enabled.md
+new file mode 100644
+--- /dev/null	(date 1755246845014)
++++ b/reporting/main-content/report-list/content/report-table/action-column/more-actions-toggle/add-to-dashboard-button/add-to-dashboard-button-testcases/Verify the add to dashboard button enabled.md	(date 1755246845014)
+@@ -0,0 +1,18 @@
++**Title:** Verify the add to dashboard button enabled 
++
++**Preconditions:**
++  1. At least one dashboard exists in the system.
++
++**Test Steps:**
++  1. Login to the workspace as an authenticated user.
++  2. Navigate to the Reports page.
++  3. Search for a specific report in the reports table.
++  4. Click on the "More Actions" toggle for the selected report.
++  5. Click on the "Add to Dashboard" button from the dropdown menu.
++  6. Verify the Add to Dashboard modal opens successfully.
++  7. Search for and select a target dashboard.
++  8. Verify the "Add to Dashboard" button is enabled.
++  9. Click the "Add to Dashboard" button.
++
++**Expected Result:**
++    The "Add to Dashboard" button should be enabled and a modal should appear.
+\ No newline at end of file
+Index: reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify favorite icon changes to white when report is removed from favorites.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify favorite icon changes to white when report is removed from favorites.md b/reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify favorite icon changes to white when report is removed from favorites.md
+new file mode 100644
+--- /dev/null	(date 1755235590463)
++++ b/reporting/main-content/report-list/content/report-table/favorite-column/favorite-column-testcases/Verify favorite icon changes to white when report is removed from favorites.md	(date 1755235590463)
+@@ -0,0 +1,15 @@
++**Title:** Verify favorite icon changes to white when report is removed from favorites.
++
++**Test Steps:**
++1. Login to the application as an authenticated user.
++2. Navigate to the Reports page.
++3. Locate a report in the report table that is currently favorited (black star icon).
++4. Click on the favorite star icon for that report.
++5. Observe the icon color change.
++6. Verify the success alert message appears.
++
++**Expected Result:**
++- The star icon should change from black to white immediately after clicking.
++- An alert should display: "Report has been successfully removed from favorites."
++- The report should be visually marked as unfavorited with the white star icon.
++- No system errors should occur during the unfavoriting process.
+\ No newline at end of file
+Index: .claude/commands/generate-ui-testcases.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.claude/commands/generate-ui-testcases.md b/.claude/commands/generate-ui-testcases.md
+new file mode 100644
+--- /dev/null	(date 1755241214299)
++++ b/.claude/commands/generate-ui-testcases.md	(date 1755241214299)
+@@ -0,0 +1,33 @@
++Use playwright mcp to:
++- Open browser to w1.t1.ideascale.dev
++- Log in with admin credentials:
++    - Email: superuser@ideascale.me
++    - Password: brewski01
++
++Navigate to: Reporting page
++Target directory:/$ARGUMENTS
++
++Analyze Content
++- Read the use-cases.md file content
++- Examine corresponding UI elements
++- Review existing test files for patterns and conventions
++
++Create Test Structure
++- Create testcases folder inside each leaf folder
++- Folder naming convention: {leaf-folder-name}-testcases
++
++Generate Test Files
++- Write test cases as individual .md files
++- File naming: Title should match test case name
++- Follow established testing patterns and conventions
++
++Example Test Case Structure
++- Title: Verify Sidebar does not collapse if the button is disabled
++- Test Steps:
++  1. Login to the workspace as an authenticated user.
++  2. Navigate to the Reports page.
++  3. Click the collapse sidebar button when it is disabled.
++
++- Expected Result:
++  The collapse button should not function when it is disabled.
++
+Index: .claude/commands/write-test-document.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.claude/commands/write-test-document.md b/.claude/commands/write-test-document.md
+new file mode 100644
+--- /dev/null	(date 1755238849357)
++++ b/.claude/commands/write-test-document.md	(date 1755238849357)
+@@ -0,0 +1,16 @@
++Use playwright mcp to open a browser to w1.t1.ideascale.dev
++Log in using the admin credentials:
++Email: superuser@ideascale.me
++Password: brewski01
++Navigate to the Reporting page.
++The report list is located at the path:
++reporting-module-structure/reporting/$ARGUMENTS
++Each leaf folder in this path contains a use-cases.md file.
++Based on:
++The use-cases.md content and The corresponding UI elements of that leaf
++Create a testcases folder inside each leaf folder.
++In each testcases folder: the testcase folder name is the last leaf folder name-testcases
++Write all test cases as .md files.
++The title of each .md file should match the test case name.
++please existing test files to understand your testing patterns and conventions
++i want the testcases for favorite-column 
+\ No newline at end of file
+diff --git a/reporting/main-content/report-list/content/report-table/action-column/more-actions-toggle/add-to-dashboard-button/add-to-dashboard-modal.txt b/reporting/main-content/report-list/content/report-table/action-column/more-actions-toggle/add-to-dashboard-button/use-cases.md
+rename from reporting/main-content/report-list/content/report-table/action-column/more-actions-toggle/add-to-dashboard-button/add-to-dashboard-modal.txt
+rename to reporting/main-content/report-list/content/report-table/action-column/more-actions-toggle/add-to-dashboard-button/use-cases.md
+diff --git a/reporting/main-content/report-list/content/report-table/last-updated-on-column/last-updated-on.txt b/reporting/main-content/report-list/content/report-table/last-updated-on-column/use-cases.md
+rename from reporting/main-content/report-list/content/report-table/last-updated-on-column/last-updated-on.txt
+rename to reporting/main-content/report-list/content/report-table/last-updated-on-column/use-cases.md
+diff --git a/reporting/main-content/report-list/content/report-table/favorite-column/add-to-favorite-button.txt b/reporting/main-content/report-list/content/report-table/favorite-column/use-cases.md
+rename from reporting/main-content/report-list/content/report-table/favorite-column/add-to-favorite-button.txt
+rename to reporting/main-content/report-list/content/report-table/favorite-column/use-cases.md
