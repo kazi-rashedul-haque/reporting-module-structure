@@ -5,6 +5,7 @@ Use playwright mcp to:
     - Password: brewski01
 
 Navigate to: Reporting page
+Select the Reports table existing any report to open report details page
 Target directory:/$ARGUMENTS
 
 Analyze Content
