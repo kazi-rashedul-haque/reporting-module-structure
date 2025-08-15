@@ -1,3 +1,4 @@
+
 delete_button --> onClick=opens Delete Report modal
 
 Modal Title: Delete Report
