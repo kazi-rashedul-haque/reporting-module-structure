@@ -1,4 +1,4 @@
-**Title:** Verify correct report name displays as saved/created by the user
+**Title:** Verify correct report name display
 
 **Test Steps:**
 1. Login to the workspace as an authenticated user.
