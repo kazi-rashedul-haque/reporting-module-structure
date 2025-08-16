@@ -25,6 +25,9 @@ Generate Test Files
 Example Test Case Structure
 **Title:** Verify Created by column sorting functionality in descending order.
 
+**Pre-conditions:** (if test requires specific data conditions)
+* Include preconditions when test requires specific data (e.g., reports with special characters, long names, etc.)
+
 **Test Steps:**
 1. Login to the workspace as an authenticated user.
 2. Navigate to the Reports page.
