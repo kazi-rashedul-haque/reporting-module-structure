@@ -2,7 +2,6 @@
 
 **Pre-conditions:**
 * At least one report exists in the report list
-* Recent changes have been made without saving
 
 **Test Steps:**
 1. Login to the workspace as an authenticated user.
