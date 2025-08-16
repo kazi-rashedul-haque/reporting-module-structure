@@ -22,4 +22,13 @@
 15. Confirm the report functions correctly within the dashboard.
 
 **Expected Result:**
-  Modal closes automatically after successful addition, user returns to the Reports page without manual navigation, success message or toast notification appears confirming the addition, loading indicator shows during the process if applicable, the selected dashboard is updated with the new report, report appears in the dashboard's report list with correct title and data, report maintains its original functionality when viewed in the dashboard, dashboard layout adjusts properly to accommodate the new report, no error messages appear during the process, operation completes within reasonable time limits.
+• Modal closes automatically after successful addition
+• User returns to the Reports page without manual navigation
+• Success message or toast notification appears confirming the addition
+• Loading indicator shows during the process if applicable
+• The selected dashboard is updated with the new report
+• Report appears in the dashboard's report list with correct title and data
+• Report maintains its original functionality when viewed in the dashboard
+• Dashboard layout adjusts properly to accommodate the new report
+• No error messages appear during the process
+• Operation completes within reasonable time limits
