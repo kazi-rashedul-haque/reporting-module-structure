@@ -60,7 +60,7 @@ When writing manual test cases, consider Playwright automation capabilities:
 - **Environment Setup**: Pre-configure test data through APIs or database seeding
 
 ## Example Test Case Structures
-
+The test cases rewritten in a simple, easy-to-read way so anyone (QA, Dev, or Business user) can easily understand.
 ### Standard Functional Test Case
 **Title:** Verify Created by column sorting functionality in descending order.
 
