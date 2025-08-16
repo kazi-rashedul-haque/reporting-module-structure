@@ -1,0 +1,15 @@
+**Title:** Verify Next button prevents double submission with rapid clicks.
+
+**Test Steps:**
+1. Login to the application as an authenticated user.
+2. Navigate to the Reports page.
+3. Click the Create Report button to open the modal.
+4. Enter a valid report name "Test Report".
+5. Enter a valid description "Test description".
+6. Quickly click the Next button multiple times in rapid succession.
+7. Verify only one submission is processed.
+8. Verify user is navigated to Report Configuration page only once.
+9. Check for any duplicate data creation or processing.
+
+**Expected Result:**
+Only one submission should be processed despite multiple rapid clicks, the button should become disabled after the first click or implement other prevention mechanisms, the user should be navigated to the next step only once, no duplicate reports should be created, and the system should handle rapid clicks gracefully without errors or unexpected behavior.

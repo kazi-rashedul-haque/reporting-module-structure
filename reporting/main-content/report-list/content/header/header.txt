@@ -1,3 +1,0 @@
-collapse_sidebar_button
-title: Reports
-search_field

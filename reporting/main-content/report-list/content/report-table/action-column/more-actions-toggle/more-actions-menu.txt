@@ -1,5 +1,0 @@
-export_csv_button_disabled
-export_excel_button_disabled
-schedule_email_report_button_disabled
-add_to_favorites_button / remove_from_favorites_button
-clone_button
