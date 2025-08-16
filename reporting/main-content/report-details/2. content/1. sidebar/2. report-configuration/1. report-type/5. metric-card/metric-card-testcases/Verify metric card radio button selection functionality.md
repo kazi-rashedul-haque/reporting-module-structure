@@ -1,4 +1,4 @@
-**Title:** Verify line chart radio button selection functionality
+**Title:** Verify metric card radio button selection functionality
 
 **Pre-conditions:**
 * At least one report exists in the report list
@@ -9,13 +9,13 @@
 2. Navigate to the Reporting page.
 3. Select any existing report from the report table to open report details page.
 4. Verify the Report Type section is visible in the sidebar.
-5. Locate the Line chart radio button option.
-6. Click on the Line chart radio button.
+5. Locate the Metric Card radio button option.
+6. Click on the Metric Card radio button.
 7. Verify the radio button becomes selected (checked state).
 8. Verify other report type options become deselected.
 
 **Expected Result:**
-* Line chart radio button should be selected and show checked state
+* Metric Card radio button should be selected and show checked state
 * Other report type radio buttons should be deselected
-* Line chart specific customization options should appear including X Axis, Y Axis, and Add Dataset button
+* Metric Card specific customization options should appear including Data Category, Time Frame, Data Grouping, Dataset, and Add Filter
 * Selection should be visually indicated with appropriate styling

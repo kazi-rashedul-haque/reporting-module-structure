@@ -1,15 +1,15 @@
 **Title:** Verify Add Dataset functionality for dual Y Axis
 
 **Pre-conditions:**
-* At least one Line chart report exists in the report list if not present one the list then will create a new report
-* Line chart is selected as the report type
+* At least one report exists in the report list
+* Bar chart is selected as the report type
 * Primary Y Axis dataset is configured
 
 **Test Steps:**
 1. Login to the workspace as an authenticated user.
 2. Navigate to the Reporting page.
 3. Select any existing report from the report table to open report details page.
-4. Select Line chart as the report type.
+4. Select Bar chart as the report type.
 5. Configure the primary Y Axis with any data metric.
 6. Locate the "Add Dataset" button.
 7. Click the "Add Dataset" button.
@@ -22,4 +22,5 @@
 * "Add Dataset" button should be visible and clickable
 * Second Y Axis configuration should appear after clicking the button
 * Second Y Axis should have identical metric options to the primary
+* Both datasets should be configurable independently
 * Maximum of 2 datasets should be enforced

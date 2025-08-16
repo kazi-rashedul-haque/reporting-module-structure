@@ -13,7 +13,7 @@ Select the Reports table existing any report to open report details page
 Target directory:/$ARGUMENTS
 
 ## Analysis Phase
-- Read the use-cases.md file content
+- read the use-cases.md file from each leaf folder or .md files in the folder
 - Examine corresponding UI elements
 - Review existing test files for patterns and conventions
 

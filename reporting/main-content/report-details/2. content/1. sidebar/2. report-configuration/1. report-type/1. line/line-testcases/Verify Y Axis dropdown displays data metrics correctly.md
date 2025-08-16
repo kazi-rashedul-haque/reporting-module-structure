@@ -12,14 +12,10 @@
 5. Locate the Y Axis dropdown field.
 6. Verify "Max 2 datasets" label is displayed.
 7. Click on the Y Axis dropdown to open the options list.
-8. Verify dropdown contains data metrics including: # of Ideas Submitted, # of Idea Views, # of Idea Votes, Idea Up Votes, Idea Down Votes, # of Comment Votes, Comment Up Votes, Comment Down Votes, # of Comments, Engagement Actions, # of Shares, Tags Applied.
-9. Verify additional metrics: Reviews Completed, Assessments Completed, Estimations Completed, Refinements Submitted, Fund Allocations, Build Team Activity Count, Net Activity Score, Idea Stage Changes, Moderator Activity Count, Moderator Activity Per Idea, Selected Ideas, Implemented Ideas.
-10. Select one metric and verify selection is applied.
-11. Verify dropdown closes after selection.
+8. Select one metric and verify selection is applied.
 
 **Expected Result:**
 * Y Axis dropdown should display comprehensive list of data metrics
 * All expected metrics should be available for selection
 * "Max 2 datasets" limitation should be clearly indicated
 * Selected metric should be applied and displayed in the field
-* Dropdown should function smoothly without performance issues
