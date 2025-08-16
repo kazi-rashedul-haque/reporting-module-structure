@@ -21,3 +21,14 @@ Description: Click `Continue Editing` to keep editing or `Discard Changes` to ab
 2. Discard Changes:
    * Confirms abandonment of all unsaved changes.
    * Navigation proceeds and previous report state is retained.
+
+
+**Save As New Button** While  the `Save As New` button is clicked after modifying the report configuration, it should trigger a modal to save the report as a new report with a unique name.
+
+**Discard Changes Button**:
+- When selected, the current unsaved changes are discarded.
+- The report reverts to the last saved state.
+
+**Save Changes Button**:
+- When selected, the current report configuration is saved.
+- A success alert is shown to confirm the update.
