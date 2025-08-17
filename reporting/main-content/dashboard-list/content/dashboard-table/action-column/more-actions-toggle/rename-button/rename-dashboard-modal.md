@@ -1,4 +1,4 @@
-rename_button --> onClick=opens Rename Dashboard modal
+regrename_button --> onClick=opens Rename Dashboard modal
 
 Modal Title: Rename Dashboard
 Close_button
