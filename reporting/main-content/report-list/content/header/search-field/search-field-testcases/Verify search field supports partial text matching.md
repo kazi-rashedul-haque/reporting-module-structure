@@ -1,7 +1,7 @@
 **Title:** Verify search field supports partial text matching.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the worksapce as an authenticated user.
 2. Navigate to the Reports page.
 3. Enter a partial search term (e.g., "Idea").
 4. Observe the filtered results.

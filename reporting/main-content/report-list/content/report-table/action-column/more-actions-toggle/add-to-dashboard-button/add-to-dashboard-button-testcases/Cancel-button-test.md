@@ -3,8 +3,8 @@
 **Test Steps:**
 1. Login to the workspace as an authenticated user.
 2. Navigate to the Reports page.
-3. Locate a report row in the reports table.
-4. Click on the "More Actions" button (three dots) in the action column of the report row.
+3. Search for a specific report in the reports table.
+4. Click on the "More Actions" button (three dots) in the action column.
 5. Click on the "Add to Dashboard" option from the dropdown menu.
 6. The Add to Dashboard modal should appear on the screen.
 7. Click on the "Cancel" button.

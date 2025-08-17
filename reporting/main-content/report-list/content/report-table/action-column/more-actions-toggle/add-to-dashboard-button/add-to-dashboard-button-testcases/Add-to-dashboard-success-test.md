@@ -14,21 +14,12 @@
 7. Select a target dashboard by clicking its checkbox.
 8. Verify the "Add to Dashboard" button is enabled.
 9. Click the "Add to Dashboard" button.
-10. Observe the modal behavior and any loading indicators.
-11. Wait for the operation to complete.
-12. Check for success notifications or messages.
-13. Navigate to the selected dashboard.
-14. Verify the report appears in the dashboard's report list.
-15. Confirm the report functions correctly within the dashboard.
+10. Check for success notifications or messages.
+11. Navigate to the selected dashboard.
+12. Verify the report appears in the dashboard's report list.
 
 **Expected Result:**
-• Modal closes automatically after successful addition
-• User returns to the Reports page without manual navigation
-• Success message or toast notification appears confirming the addition
-• Loading indicator shows during the process if applicable
-• The selected dashboard is updated with the new report
-• Report appears in the dashboard's report list with correct title and data
-• Report maintains its original functionality when viewed in the dashboard
-• Dashboard layout adjusts properly to accommodate the new report
-• No error messages appear during the process
-• Operation completes within reasonable time limits
+* Modal closes after successful addition.
+* Success message/notification appears.
+* User is returned to Reports page.
+* Report is added to the selected dashboard.

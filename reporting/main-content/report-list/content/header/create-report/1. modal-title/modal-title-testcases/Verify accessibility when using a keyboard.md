@@ -1,7 +1,7 @@
 **Title:** Verify accessibility when using a keyboard
 
 **Test Steps:**
-1. Login to the Workspace as Admin.
+1. Login to the Workspace as an authenticated user.
 2. Navigate to the Reporting Page.
 3. Observe the Create Report button state.
 4. Press the Tab key to focus on the Create Report button.

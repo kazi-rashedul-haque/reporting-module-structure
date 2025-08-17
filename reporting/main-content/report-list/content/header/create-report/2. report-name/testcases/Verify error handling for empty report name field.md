@@ -1,7 +1,7 @@
 **Title:** Verify error handling for empty report name field.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the Workspace as an authenticated user.
 2. Navigate to the Reports page.
 3. Click the Create Report button to open the modal.
 4. Leave the Report Name field empty.

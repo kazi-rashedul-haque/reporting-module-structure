@@ -9,7 +9,4 @@
 6. Observe the table results and system response.
 
 **Expected Result:**
-- The search box accepts what you type
 - No reports show up in the table
-- A "No result found" message appears
-- All reports disappear because nothing matches

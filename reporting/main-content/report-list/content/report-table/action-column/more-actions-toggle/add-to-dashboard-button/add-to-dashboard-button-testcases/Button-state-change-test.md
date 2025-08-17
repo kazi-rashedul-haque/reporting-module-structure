@@ -14,12 +14,9 @@
 7. Search for and display available dashboards.
 8. Select a dashboard by clicking its checkbox.
 9. Observe the "Add to Dashboard" button state change.
-10. Note any changes in button text, color, or styling.
 11. Deselect the dashboard checkbox by clicking it again.
 12. Verify the button returns to disabled state.
-13. Test with multiple dashboard selections if supported.
-14. Verify button behavior with different selection combinations.
-15. Test button state when clearing search results.
+
 
 
 **Expected Result:**
