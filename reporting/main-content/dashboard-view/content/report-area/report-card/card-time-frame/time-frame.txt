@@ -1,8 +1,0 @@
-In the report card, the time frame is displayed based on the report's configured time frame.
-Alongside the time frame, a calendar icon is displayed for visual indication.
-
-Time Period Display:
-    If a report has a selected time period, it is displayed on the report card.
-    If a dashboard-level filter overrides the report’s selected time period:
-    Show the message "Dashboard filters are applied" on the report card.
-    On hover, display a tooltip with the overridden filter details.
