@@ -1,4 +1,0 @@
-Placeholder:search
-invalid-input-No result found
-valid-input-Search by dashboard name
-No validation is found in the code.
