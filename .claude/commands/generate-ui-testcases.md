@@ -2,13 +2,13 @@
 Generate manual UI test cases that will later be converted to automated Playwright tests with TypeScript.
 
 ## Process Overview
-Use playwright mcp to:
+You must Use playwright mcp to:
 - Open browser to w1.t1.ideascale.dev
 - Log in with admin credentials:
     - Email: superuser@ideascale.me
     - Password: brewski01
 
-Navigate to: Reporting page
+Navigate to: Dashboard page
 Select the Reports table existing any report to open report details page
 Target directory:/$ARGUMENTS
 

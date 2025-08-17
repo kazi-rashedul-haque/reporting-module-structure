@@ -8,6 +8,7 @@ The title of each .md file should match the test case name.
 please existing test files to understand your testing patterns
 Generate comprehensive manual test cases that can be easily converted to automated Playwright tests
 
+Target directory:/$ARGUMENTS
 
 Testcase **Expected Result:** result should be written in a simple, easy-to-read way so anyone (QA, Dev, or Business user) can easily understand and point 
 

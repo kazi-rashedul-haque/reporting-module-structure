@@ -1,30 +1,30 @@
 **Title:** Verify handling of duplicate dashboard names during creation
 
-**Pre-conditions:**
-* At least one dashboard already exists in the system
+**Preconditions:**
+At least one dashboard already exists in the system.
 
 **Test Steps:**
 1. Login to the workspace as an authenticated user.
 2. Navigate to the Dashboard List page.
-3. Click on the "Create Dashboard" button.
-4. Enter the exact name of an existing dashboard in the Dashboard Name field.
-5. Enter a valid description (optional).
-6. Click the "Save Changes" button.
-7. Observe the system response and any error messages.
-8. Test with same name but different case (uppercase/lowercase).
-9. Test with same name but leading/trailing spaces.
-10. Verify error message clarity and user guidance.
-11. Test correction by modifying the name to be unique.
+3. Go to the Dashboard List page.
+4. Note an existing dashboard name (e.g., “Build Test 5 June”).
+5. Click Create Dashboard button.
+6. Enter the same name (“Build Test 5 June”) in the Name field.
+7. Enter description: “Test duplicate validation”.
+8. Click Save Changes → observe system response.
+9. Try again with same name but different case: “BUILD TEST 5 JUNE”.
+10. Try again with same name but with leading/trailing spaces: “ Build Test 5 June ”.
+11. Change the name to a unique value (e.g., “Build Test 5 June - Copy”) and submit.
 
 **Expected Result:**
-• System detects duplicate dashboard name before creation
-• Clear error message indicates name already exists
-• Error message suggests modifying name to be unique
-• Form submission is prevented until name is unique
-• Case sensitivity is handled consistently
-• Leading and trailing spaces are trimmed properly
-• Error message appears near the name field
-• Save button remains disabled while duplicate exists
-• User can modify name and resubmit successfully
-• Error message disappears when unique name entered
-• System provides helpful alternative name suggestions
+
+* Duplicate name is detected, dashboard is not created.
+* Error message shown: “A dashboard with this name already exists. Please choose a different name.”
+* Case-insensitive match triggers the same error.
+* Leading/trailing spaces are trimmed before validation.
+* Error appears clearly near the Name field.
+* Save Changes button does not proceed while error exists.
+* User can correct the name to something unique.
+* Once unique, submission succeeds and dashboard is created.
+* Error message disappears immediately when unique input is entered.
+* System may suggest alternatives (e.g., appending “(Copy)”).

@@ -2,8 +2,8 @@
 
 ---
 
-**Pre-conditions:**
-- User has access to Dashboard List page
+**Preconditions:**
+- At least one dashboard exists in the system
 - Screen reader software is available (NVDA, JAWS, or VoiceOver)
 - Browser supports keyboard navigation and accessibility features
 
@@ -34,11 +34,11 @@
     5. Close button (X)
 - `Shift + Tab` navigates in reverse order correctly.
 - Interactive elements can be activated with both `Enter` and `Space` keys.
-- **Screen reader** properly announces modal title, field labels, and required indicators.
+- **Screen reader** properly announces modal title "Create Dashboard", field labels, and required indicators.
 - **ARIA compliance**: Proper labels, roles, and semantic markup for modal elements.
 - **Visual accessibility**: WCAG AA color contrast ratios (4.5:1 text, 3:1 graphics).
 - **Mobile accessibility**: Touch targets meet 44x44 pixel minimum.
 - **Focus management**: Clear focus indicators and logical navigation within modal.
-- Modal traps focus correctly and returns focus to trigger button on close.
-- Required field indicators are properly announced by screen readers.
-- No accessibility violations when tested with automated tools.
+- Modal traps focus correctly and returns focus to Create Dashboard button on close.
+- Required field indicators (*) are properly announced by screen readers as "required".
+- No accessibility violations when tested with automated tools (axe-core).
