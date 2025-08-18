@@ -1,7 +1,7 @@
 **Title:** Verify Close button functionality in modal.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Reports page and open any report details.
 3. Click on Actions dropdown and select "Add to Dashboard" button.
 4. In the opened modal, make some selections and enter search text.

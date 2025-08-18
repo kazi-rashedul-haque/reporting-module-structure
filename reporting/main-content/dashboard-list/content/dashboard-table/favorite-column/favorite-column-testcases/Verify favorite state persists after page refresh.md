@@ -1,7 +1,7 @@
 **Title:** Verify favorite state persists after page refresh.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Dashboard List page.
 3. Add several dashboards to favorites by clicking their star icons.
 4. Verify the icons change to black and success messages appear.

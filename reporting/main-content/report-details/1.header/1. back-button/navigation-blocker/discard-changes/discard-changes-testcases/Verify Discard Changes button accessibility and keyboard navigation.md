@@ -1,7 +1,7 @@
 **Title:** Verify Discard Changes button accessibility and keyboard navigation.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Report Details page with unsaved changes.
 3. Click the back button to trigger the navigation warning modal.
 4. Use Tab key to navigate to the "Discard Changes" button.

@@ -3,9 +3,11 @@
 **Test Steps:**
 1. Login to the Workspace as authenticated user.
 2. Navigate to the Reporting Page.
-3. Click on the Create Report button.
+3. Verify that the Create report button enabled and visible.
+4. Click on the Create Report button.
 
 **Expected Result:**
+* The Create Report button should be enabled and visible.
 * The Create Report modal should open.
 * The Create Report button should be visible and clickable.
 * The modal should open as expected and the modal name is Create Report.

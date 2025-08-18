@@ -1,7 +1,7 @@
 **Title:** Verify search field handles extremely long input text.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Dashboards page.
 3. Click on the search field.
 4. Enter an extremely long text string (500+ characters).

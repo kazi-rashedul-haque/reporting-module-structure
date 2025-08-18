@@ -1,7 +1,7 @@
 **Title:** Verify character limit enforcement for description exceeding 240 characters.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Reports page.
 3. Click the Create Report button to open the modal.
 4. Click on the Description field.

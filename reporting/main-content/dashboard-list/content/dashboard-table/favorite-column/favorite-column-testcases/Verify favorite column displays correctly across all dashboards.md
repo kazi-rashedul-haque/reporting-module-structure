@@ -1,7 +1,7 @@
 **Title:** Verify favorite column displays correctly across all dashboards.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Dashboard List page.
 3. Scroll through the entire dashboard table to view all dashboards.
 4. Verify that each dashboard row has a favorite icon in the first column.

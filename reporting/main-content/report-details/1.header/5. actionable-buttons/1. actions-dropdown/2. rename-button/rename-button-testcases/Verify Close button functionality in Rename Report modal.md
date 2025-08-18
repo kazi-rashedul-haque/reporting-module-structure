@@ -2,7 +2,7 @@
 
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Reporting page and open any user-created report details.
 3. Click on the Actions dropdown and select "Rename Report".
 1. Open the Rename Report modal for a user-created report.

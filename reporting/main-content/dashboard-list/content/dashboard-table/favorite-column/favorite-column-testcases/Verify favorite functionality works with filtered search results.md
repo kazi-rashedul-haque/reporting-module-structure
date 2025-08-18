@@ -1,7 +1,7 @@
 **Title:** Verify favorite functionality works with filtered search results.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Dashboard List page.
 3. Use the search field to filter dashboards (e.g., search for "Marketing").
 4. Verify that filtered results display with favorite icons.

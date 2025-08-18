@@ -5,7 +5,7 @@
 
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Reports page.
 3. Locate a user-created report in the report table.
 4. Click on the More Actions button (three dots) for the report.

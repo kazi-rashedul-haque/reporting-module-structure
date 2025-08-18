@@ -1,7 +1,7 @@
 **Title:** Verify delete functionality with reports containing special characters.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Reports page.
 3. Create test reports with names containing special characters: "Test@#$%Report", "Report with spaces", "Report'with'quotes", "Report<>&HTML".
 4. Locate each test report in the report table.

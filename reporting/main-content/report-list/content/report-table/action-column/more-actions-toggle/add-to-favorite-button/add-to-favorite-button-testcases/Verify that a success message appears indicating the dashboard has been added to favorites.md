@@ -5,7 +5,7 @@
 
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the report List page.
 3. Locate a user-created dashboard in the dashboard table.
 4. Click on the More Actions button (three dots) for the dashboard.

@@ -1,7 +1,7 @@
 **Title:** Verify Discard Changes preserves original saved data.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Report Details page with existing saved data.
 3. Note the original saved report content and data.
 4. Make multiple changes to various fields and sections.

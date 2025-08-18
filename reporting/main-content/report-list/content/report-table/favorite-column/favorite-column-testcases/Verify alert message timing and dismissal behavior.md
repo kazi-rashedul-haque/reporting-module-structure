@@ -1,7 +1,7 @@
 **Title:** Verify alert message timing and dismissal behavior for favorite reports
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Reports page.
 3. Click on a favorite icon to add a report to favorites.
 4. Observe the alert message "Report has been successfully added to favorites."

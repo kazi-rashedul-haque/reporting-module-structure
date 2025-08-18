@@ -1,7 +1,7 @@
 **Title:** Verify delete button accessibility via keyboard navigation.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Dashboard List page.
 3. Use Tab key to navigate to a user-created dashboard's More Actions button.
 4. Press Enter or Space key to open the More Actions dropdown.

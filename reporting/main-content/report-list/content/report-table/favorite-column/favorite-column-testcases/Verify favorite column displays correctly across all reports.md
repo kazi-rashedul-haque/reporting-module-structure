@@ -1,7 +1,7 @@
 **Title:** Verify favorite column displays correctly across all reports.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Reports page.
 3. Scroll through the entire report table to view all reports.
 4. Verify that each report row has a favorite icon in the first column.

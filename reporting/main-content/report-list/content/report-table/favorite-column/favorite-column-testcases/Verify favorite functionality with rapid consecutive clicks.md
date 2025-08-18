@@ -1,7 +1,7 @@
 **Title:** Verify favorite functionality with rapid consecutive clicks.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Reports page.
 3. Locate a report with a white star icon (not favorited).
 4. Click the favorite icon rapidly multiple times in quick succession (5-10 clicks).

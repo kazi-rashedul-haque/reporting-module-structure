@@ -1,4 +1,4 @@
-**Title:** Verify rename button is only available for user-created dashboards
+**Title:** Verify rename button is only available for user-created dashboards and unable for system-generated dashboards
 
 **Preconditions:**
   1. At least one system-generated dashboard exists in the Dashboards table.

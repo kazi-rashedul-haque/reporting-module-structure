@@ -4,7 +4,7 @@
 
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Reporting page and open any report details.
 3. Click on the "Actions" dropdown button in the report header.
 1. Open the Rename Report modal using keyboard navigation.
