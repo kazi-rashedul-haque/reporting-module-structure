@@ -1,19 +1,13 @@
-# TC_AddFilter_Cancel_011
+**Title:** Verify Cancel button discards all unsaved filter changes and closes modal properly
 
-## Title:
-Verify Cancel button discards all unsaved filter changes and closes modal properly
-
-## Pre-Condition:
+**Pre-Condition:**
 1. User is logged into the reporting application
 2. User is on the report creation page with completed basic configuration
 3. Add Filter modal is open
 4. No filters were previously applied to the report
 
-## Test Steps:
-1. Configure a complex filter structure in the modal:
-   - WHERE Campaign = "Customer Experience"
-   - AND Community = "Test Community"
-   - OR Stage = "Review"
+**Test Steps:**
+1. Configure a complex filter structure in the modal with multiple conditions
 2. Do NOT apply the filters
 3. Click the "Cancel" button
 4. Verify modal closes and no filters are applied
@@ -23,8 +17,8 @@ Verify Cancel button discards all unsaved filter changes and closes modal proper
    - Modified existing applied filters
 6. Test Cancel after making changes to previously applied filters
 
-## Expected Results:
-1. "Cancel" button is visible and accessible
+**Expected Results:**
+1. "Cancel" button is visible and properly labeled
 2. Clicking "Cancel" immediately closes the Filters modal
 3. All unsaved filter configurations are discarded:
    - No filters are applied to the report
@@ -34,18 +28,11 @@ Verify Cancel button discards all unsaved filter changes and closes modal proper
    - Report configuration sidebar is visible
    - Add Filter button shows no applied filters
    - All other report settings remain intact
-5. No success/error messages are shown for cancel action
-6. When canceling with existing applied filters:
+5. When canceling with existing applied filters:
    - Previously applied filters remain active
    - Only unsaved changes are discarded
    - Applied filter status is preserved
-7. Cancel behavior is consistent across all filter complexity levels:
-   - Works with single filters
-   - Works with nested filters
-   - Works with multiple filter groups
+6. Cancel behavior is consistent across all filter complexity levels:
+   - Works with single filters, nested filters, multiple filter groups
    - Works with partially configured filters
-8. Modal overlay is removed completely
-9. Focus returns to appropriate element (Add Filter button)
-10. Cancel is accessible via keyboard (Enter/Space)
-11. Screen reader announces modal closure
-12. No background requests are made when canceling
+7. Modal overlay is removed completely
