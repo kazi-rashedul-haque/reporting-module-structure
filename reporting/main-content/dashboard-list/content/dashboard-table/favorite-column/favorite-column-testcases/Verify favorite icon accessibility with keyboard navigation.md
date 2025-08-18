@@ -1,7 +1,7 @@
 **Title:** Verify favorite icon accessibility with keyboard navigation.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Dashboard List page.
 3. Use Tab key to navigate to the first favorite icon in the dashboard table.
 4. Verify the favorite icon receives focus and is highlighted.

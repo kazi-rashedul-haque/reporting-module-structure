@@ -5,7 +5,7 @@
 2.  The report name is unique and searchable.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Reports page.
 3. Create a test report with a unique name "SearchableTestReport".
 4. Use the search field to entering the report name "SearchableTestReport"

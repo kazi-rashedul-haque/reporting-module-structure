@@ -1,7 +1,7 @@
 **Test Case**: Verify delete confirmation modal message display
 
 **Test Steps**:
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Reporting page.
 3. Open a user-created report details page.
 4. Click on the Actions dropdown button in the report header.

@@ -1,7 +1,7 @@
 **Title:** Verify search field accepts valid input by dashboard name.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Dashboards page.
 3. Locate the search field in the header.
 4. Click on the search field.

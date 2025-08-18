@@ -1,7 +1,7 @@
 **Title:** Verify warning modal displays when back button is clicked with unsaved changes.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Reports page.
 3. Open an existing report to view report details.
 4. Make changes to the report (modify any editable X axis or Time frame).

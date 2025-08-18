@@ -1,7 +1,7 @@
 **Title:** Verify back button allows navigation when no unsaved changes exist.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Reports page.
 3. Open an existing report to view report details.
 4. Do not make any changes to the report (keep all fields unchanged).

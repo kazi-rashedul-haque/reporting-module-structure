@@ -1,7 +1,7 @@
 **Title:** Verify Cancel button functionality in Rename Report modal
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Reports page and open any user-created report details.
 3. Click on the "Actions" dropdown in the report details header.
 4. Select the "Rename Report" option from the dropdown.

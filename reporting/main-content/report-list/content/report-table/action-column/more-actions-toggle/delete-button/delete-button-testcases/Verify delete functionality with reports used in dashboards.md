@@ -1,7 +1,7 @@
 **Title:** Verify delete functionality with reports used in dashboards.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Reports page.
 3. Create a test report and note its name.
 4. Navigate to the Dashboard section and add the test report to a dashboard.

@@ -1,7 +1,7 @@
 **Title:** Verify special character handling in report name field.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Reports page.
 3. Click the Create Report button to open the modal.
 4. Click on the Report Name field.

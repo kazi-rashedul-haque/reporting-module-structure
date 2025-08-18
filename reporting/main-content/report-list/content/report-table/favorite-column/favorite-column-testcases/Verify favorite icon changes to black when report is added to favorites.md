@@ -1,7 +1,7 @@
 **Title:** Verify favorite icon changes to black when report is added to favorites.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Reports page.
 3. Locate a report in the report table that is not currently favorited (white star icon).
 4. Click on the favorite star icon for that report.

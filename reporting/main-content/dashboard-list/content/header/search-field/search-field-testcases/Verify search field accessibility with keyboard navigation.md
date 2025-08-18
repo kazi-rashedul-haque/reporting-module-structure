@@ -1,7 +1,7 @@
 **Title:** Verify search field accessibility with keyboard navigation.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Dashboards page.
 3. Use Tab key to navigate to the search field.
 4. Verify the search field receives focus with visible focus indicator.

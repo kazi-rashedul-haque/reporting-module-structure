@@ -1,7 +1,7 @@
 **Title:** Verify set as default functionality for dashboards
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Dashboard List page.
 3. Locate the "Set as Default" button in the action column of a dashboard.
 4. Click the "Set as Default" button for the selected dashboard.

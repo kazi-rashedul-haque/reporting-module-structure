@@ -1,7 +1,7 @@
 **Title:** Verify search field performs case-insensitive search.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Dashboards page.
 3. Enter a search term in lowercase (e.g., "ideas").
 4. Observe the filtered results.

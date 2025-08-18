@@ -1,7 +1,7 @@
 **Title:** Verify favorite toggle functionality works correctly
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Reports page.
 3. Locate a report in the report table with a white star icon (not favorited).
 4. Click on the favorite star icon to add to favorites.

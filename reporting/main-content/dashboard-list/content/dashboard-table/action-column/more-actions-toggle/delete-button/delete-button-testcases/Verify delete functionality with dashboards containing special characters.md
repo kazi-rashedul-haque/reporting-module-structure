@@ -1,7 +1,7 @@
 **Title:** Verify delete functionality with dashboards containing special characters.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Dashboard List page.
 3. Create test dashboards with names containing special characters: "Test@#$%Dashboard", "Dashboard with spaces", "Dashboard'with'quotes", "Dashboard<>&HTML".
 4. Locate each test dashboard in the dashboard table.

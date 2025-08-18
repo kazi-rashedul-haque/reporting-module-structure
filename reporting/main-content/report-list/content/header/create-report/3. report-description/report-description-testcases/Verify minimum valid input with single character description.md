@@ -1,7 +1,7 @@
 **Title:** Verify minimum valid input with single character description.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Reports page.
 3. Click the Create Report button to open the modal.
 4. Enter a valid report name "Test Report".

@@ -1,7 +1,7 @@
 **Title:** Verify Discard Changes button closes modal and redirects to report.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Reporting page.
 3. Open a user-created report details page.
 3. Make changes to the report ( modify field X AXIS VALUE , etc.).

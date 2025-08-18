@@ -1,7 +1,7 @@
 **Title:** Verify favorite icon hover state and cursor behavior.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Reports page.
 3. Hover the mouse cursor over a favorite icon (star) in any report row.
 4. Observe the cursor change and any visual hover effects.

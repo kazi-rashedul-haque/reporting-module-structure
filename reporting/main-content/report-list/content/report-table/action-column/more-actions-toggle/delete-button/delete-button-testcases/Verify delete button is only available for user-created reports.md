@@ -1,7 +1,7 @@
 **Title:** Verify delete button is only available for user-created reports.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Reports page.
 3. Locate a report in the report table with "System Generated" in the Created by column.
 4. Click on the More Actions button (three dots) for the system-generated report.

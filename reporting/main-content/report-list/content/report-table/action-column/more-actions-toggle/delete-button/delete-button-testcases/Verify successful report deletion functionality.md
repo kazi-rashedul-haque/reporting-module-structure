@@ -1,7 +1,7 @@
 **Title:** Verify successful report deletion functionality.
 
 **Test Steps:**
-Login to the application as an authenticated user.
+Login to the workspace as an authenticated user.
 Navigate to the Reports page.
 Create a test report for deletion purposes.
 Locate the newly created test report in the report table.

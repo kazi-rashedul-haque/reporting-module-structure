@@ -1,7 +1,7 @@
 **Title:** Verify Continue Editing button with empty report data.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Report Details page.
 3. Leave all form fields empty (no data entered).
 4. Click the back button to trigger the navigation warning modal.

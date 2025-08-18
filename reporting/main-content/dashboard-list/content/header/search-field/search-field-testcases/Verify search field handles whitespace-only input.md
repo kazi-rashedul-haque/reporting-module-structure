@@ -1,7 +1,7 @@
 **Title:** Verify search field handles whitespace-only input.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Dashboards page.
 3. Click on the search field.
 4. Enter only whitespace characters (spaces, tabs).

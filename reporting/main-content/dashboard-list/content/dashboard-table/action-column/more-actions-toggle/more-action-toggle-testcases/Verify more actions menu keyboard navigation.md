@@ -2,7 +2,7 @@
 
 **Test Steps:**
 1. Login to the workspace as an authenticated user.
-2. Navigate to the Report List page.
+2. Navigate to the dashboard List page.
 3. Use Tab key to navigate to a more actions toggle button.
 4. Press Enter or Space to open the menu.
 5. Use arrow keys to navigate through menu options.
