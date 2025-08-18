@@ -1,4 +1,4 @@
-# TC_FAVORITE_ACC_003: High Contrast Mode
+**Title**: High Contrast Mode
 
 **Description**: Verify favorite button works properly in high contrast mode
 **Pre-Condition**: High contrast mode is enabled

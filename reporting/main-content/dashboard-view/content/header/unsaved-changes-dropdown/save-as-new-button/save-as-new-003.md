@@ -1,4 +1,4 @@
-# TC_SAVE_AS_NEW_003 - Modal Structure Validation
+**Title**: Modal Structure Validation
 
 * **Title**: Modal Structure Validation
 * **Description**: Verify Save as New modal contains all required elements

@@ -1,4 +1,4 @@
-# TC_DELETE_MODAL_EDGE_001: Multiple Rapid Delete Attempts
+**Title**: Multiple Rapid Delete Attempts
 
 **Description**: Verify behavior with rapid clicking of delete button
 

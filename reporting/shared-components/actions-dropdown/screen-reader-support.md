@@ -1,4 +1,4 @@
-# TC_ACTIONS_DROPDOWN_ACC_002: Screen Reader Support
+**Title**: Screen Reader Support
 
 **Description**: Verify screen reader compatibility
 

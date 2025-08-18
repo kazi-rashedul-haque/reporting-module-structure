@@ -1,4 +1,4 @@
-# TC_ACTIONS_DROPDOWN_002: Actions Menu Opens on Click
+**Title**: Actions Menu Opens on Click
 
 **Description**: Verify Actions dropdown menu opens when clicked
 

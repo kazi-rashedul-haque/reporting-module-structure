@@ -1,4 +1,4 @@
-# TC_DELETE_MODAL_005: Delete Confirmation Success
+**Title**: Delete Confirmation Success
 
 **Description**: Verify Delete button successfully deletes dashboard
 

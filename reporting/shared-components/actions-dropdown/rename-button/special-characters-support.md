@@ -1,4 +1,4 @@
-# TC_RENAME_MODAL_EDGE_002: Special Characters Support
+**Title**: Special Characters Support
 
 **Description**: Verify support for special characters in names
 

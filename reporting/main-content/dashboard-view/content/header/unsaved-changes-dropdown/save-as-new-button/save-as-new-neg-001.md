@@ -1,4 +1,4 @@
-# TC_SAVE_AS_NEW_NEG_001 - Empty Dashboard Name Validation
+**Title**: Empty Dashboard Name Validation
 
 * **Title**: Empty Dashboard Name Validation
 * **Description**: Verify validation when dashboard name field is empty in Save as New flow

@@ -1,4 +1,4 @@
-# TC_REPORT_AREA_INT_004: Responsive Design Integration
+**Title**: Responsive Design Integration
 
 **Description**: Verify report area works correctly across different screen sizes
 **Pre-Condition**: Various device sizes and orientations available

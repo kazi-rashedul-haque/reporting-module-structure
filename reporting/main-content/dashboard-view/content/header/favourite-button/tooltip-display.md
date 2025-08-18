@@ -1,4 +1,4 @@
-# TC_FAVORITE_005: Tooltip Display
+**Title**: Tooltip Display
 
 **Description**: Verify appropriate tooltips appear on hover
 **Pre-Condition**: Dashboard with known favorite status

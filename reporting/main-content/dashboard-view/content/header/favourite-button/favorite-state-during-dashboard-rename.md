@@ -1,4 +1,4 @@
-# TC_FAVORITE_EDGE_004: Favorite State During Dashboard Rename
+**Title**: Favorite State During Dashboard Rename
 
 **Description**: Verify favorite status is maintained when dashboard is renamed
 **Pre-Condition**: Dashboard is favorited and can be renamed

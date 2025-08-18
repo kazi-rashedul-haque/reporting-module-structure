@@ -1,4 +1,4 @@
-# TC_SAVE_AS_NEW_EDGE_004 - Save as New with Complex Filters
+**Title**: Save as New with Complex Filters
 
 * **Title**: Save as New with Complex Filters
 * **Description**: Verify Save as New preserves complex filter combinations

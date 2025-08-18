@@ -1,4 +1,4 @@
-# TC_SAVE_AS_NEW_EDGE_001 - Save as New with No Reports
+**Title**: Save as New with No Reports
 
 * **Title**: Save as New with No Reports
 * **Description**: Verify Save as New behavior when dashboard has no reports

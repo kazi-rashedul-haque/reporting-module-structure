@@ -1,4 +1,4 @@
-# TC_SAVE_AS_NEW_NEG_005 - HTML Tags in Description
+**Title**: HTML Tags in Description
 
 * **Title**: HTML Tags in Description
 * **Description**: Verify HTML tags are rejected in description field

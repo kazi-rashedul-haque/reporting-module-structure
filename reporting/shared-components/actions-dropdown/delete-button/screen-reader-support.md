@@ -1,4 +1,4 @@
-# TC_DELETE_MODAL_ACC_002: Screen Reader Support
+**Title**: Screen Reader Support
 
 **Description**: Verify modal content is accessible to screen readers
 

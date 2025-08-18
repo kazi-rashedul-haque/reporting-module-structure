@@ -1,4 +1,4 @@
-# TC_ADD_REPORTS_NEG_001: Add Reports Button Missing
+**Title**: Add Reports Button Missing
 
 **Description**: Verify behavior when Add Reports button should be present but isn't
 **Pre-Condition**: User is on a dashboard where button should appear

@@ -1,4 +1,4 @@
-# TC_RENAME_MODAL_NEG_004: HTML Tags in Dashboard Name
+**Title**: HTML Tags in Dashboard Name
 
 **Description**: Verify HTML tags are rejected in dashboard name
 

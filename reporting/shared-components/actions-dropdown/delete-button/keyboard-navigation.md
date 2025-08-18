@@ -1,4 +1,4 @@
-# TC_DELETE_MODAL_ACC_001: Keyboard Navigation
+**Title**: Keyboard Navigation
 
 **Description**: Verify modal is fully accessible via keyboard
 

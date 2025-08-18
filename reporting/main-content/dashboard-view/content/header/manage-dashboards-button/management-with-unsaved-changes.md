@@ -1,4 +1,4 @@
-# TC_MANAGE_DASHBOARDS_INT_003: Management with Unsaved Changes
+**Title**: Management with Unsaved Changes
 
 **Description**: Verify behavior when dashboard has unsaved changes
 **Pre-Condition**: Dashboard has unsaved changes

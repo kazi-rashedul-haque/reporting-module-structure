@@ -1,4 +1,4 @@
-# TC_SAVE_AS_NEW_004 - Dashboard Name Field Validation
+**Title**: Dashboard Name Field Validation
 
 * **Title**: Dashboard Name Field Validation
 * **Description**: Verify dashboard name field properties and requirements in Save as New flow

@@ -1,4 +1,4 @@
-# TC_SAVE_AS_NEW_EDGE_002 - Save as New with Maximum Reports
+**Title**: Save as New with Maximum Reports
 
 * **Title**: Save as New with Maximum Reports
 * **Description**: Verify Save as New with dashboard containing maximum number of reports

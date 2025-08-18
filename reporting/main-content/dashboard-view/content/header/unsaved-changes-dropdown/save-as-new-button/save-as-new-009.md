@@ -1,4 +1,4 @@
-# TC_SAVE_AS_NEW_009 - Close Button Functionality
+**Title**: Close Button Functionality
 
 * **Title**: Close Button Functionality
 * **Description**: Verify X (close) button returns to original dashboard without saving

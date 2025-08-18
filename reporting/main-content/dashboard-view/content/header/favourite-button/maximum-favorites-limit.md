@@ -1,4 +1,4 @@
-# TC_FAVORITE_EDGE_003: Maximum Favorites Limit
+**Title**: Maximum Favorites Limit
 
 **Description**: Verify behavior when user reaches maximum number of favorites
 **Pre-Condition**: User has many favorites (if limit exists)

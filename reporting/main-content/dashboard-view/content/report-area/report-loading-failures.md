@@ -1,4 +1,4 @@
-# TC_REPORT_AREA_NEG_001: Report Loading Failures
+**Title**: Report Loading Failures
 
 **Description**: Verify report area handles report loading failures gracefully
 **Pre-Condition**: Network issues or data problems simulated

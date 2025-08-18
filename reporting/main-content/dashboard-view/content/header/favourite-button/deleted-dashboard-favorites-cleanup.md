@@ -1,4 +1,4 @@
-# TC_FAVORITE_EDGE_005: Deleted Dashboard Favorites Cleanup
+**Title**: Deleted Dashboard Favorites Cleanup
 
 **Description**: Verify favorite references are cleaned up when dashboard is deleted
 **Pre-Condition**: Favorited dashboard that can be deleted

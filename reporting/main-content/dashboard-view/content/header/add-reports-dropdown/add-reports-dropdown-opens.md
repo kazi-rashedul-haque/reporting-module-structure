@@ -1,4 +1,4 @@
-# TC_ADD_REPORTS_002: Add Reports Dropdown Opens
+**Title**: Add Reports Dropdown Opens
 
 **Description**: Verify Add Reports dropdown menu opens when clicked
 **Pre-Condition**: Add Reports button is visible on dashboard

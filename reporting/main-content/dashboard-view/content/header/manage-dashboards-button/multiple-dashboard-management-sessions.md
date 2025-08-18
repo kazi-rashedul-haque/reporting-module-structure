@@ -1,4 +1,4 @@
-# TC_MANAGE_DASHBOARDS_EDGE_003: Multiple Dashboard Management Sessions
+**Title**: Multiple Dashboard Management Sessions
 
 **Description**: Verify behavior when management is accessed from multiple sessions
 **Pre-Condition**: Same user logged in multiple browser sessions

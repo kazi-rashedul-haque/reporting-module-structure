@@ -1,4 +1,4 @@
-# TC_DELETE_MODAL_EDGE_002: Modal Behavior on Browser Back
+**Title**: Modal Behavior on Browser Back
 
 **Description**: Verify modal behavior when user navigates back
 

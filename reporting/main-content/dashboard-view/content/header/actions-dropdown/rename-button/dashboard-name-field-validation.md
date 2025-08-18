@@ -1,4 +1,4 @@
-# TC_RENAME_MODAL_003: Dashboard Name Field Validation
+**Title**: Dashboard Name Field Validation
 
 **Description**: Verify dashboard name field properties and validation
 

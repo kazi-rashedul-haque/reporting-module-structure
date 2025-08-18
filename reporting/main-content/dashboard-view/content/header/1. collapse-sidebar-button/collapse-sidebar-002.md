@@ -1,4 +1,3 @@
-**Test Case ID**: TC_COLLAPSE_SIDEBAR_002
 **Title**: Collapse Sidebar on Click
 **Description**: Clicking the collapse button should collapse the sidebar.
 **Pre-Condition**: Sidebar is expanded initially.

@@ -1,4 +1,4 @@
-# TC_ADD_REPORTS_EDGE_001: Add Reports on System Dashboard
+**Title**: Add Reports on System Dashboard
 
 **Description**: Verify Add Reports behavior on system-generated dashboard
 **Pre-Condition**: User is on system-generated "Legacy Dashboard"

@@ -1,4 +1,4 @@
-# TC_FAVORITE_002: Add to Favorites Functionality
+**Title**: Add to Favorites Functionality
 
 **Description**: Verify non-favorite dashboard can be added to favorites
 **Pre-Condition**: Dashboard is not currently favorited (button shows unfilled state)

@@ -1,4 +1,4 @@
-# TC_ACTIONS_DROPDOWN_007: Clone Dashboard Option
+**Title**: Clone Dashboard Option
 
 **Description**: Verify Clone option creates dashboard copy
 

@@ -1,4 +1,4 @@
-# TC_FAVORITE_ACC_004: Touch and Mobile Accessibility
+**Title**: Touch and Mobile Accessibility
 
 **Description**: Verify favorite button works properly on touch devices
 **Pre-Condition**: Mobile or touch device access

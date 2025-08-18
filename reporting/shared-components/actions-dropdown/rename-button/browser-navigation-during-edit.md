@@ -1,4 +1,4 @@
-# TC_RENAME_MODAL_EDGE_004: Browser Navigation During Edit
+**Title**: Browser Navigation During Edit
 
 **Description**: Verify behavior when user navigates away during editing
 

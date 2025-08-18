@@ -1,4 +1,4 @@
-# TC_FAVORITE_NEG_002: Favorite Action Fails
+**Title**: Favorite Action Fails
 
 **Description**: Verify handling when favorite/unfavorite action fails
 **Pre-Condition**: Network issues or server problems simulated

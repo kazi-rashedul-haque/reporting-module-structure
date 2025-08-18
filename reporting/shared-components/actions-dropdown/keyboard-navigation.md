@@ -1,4 +1,4 @@
-# TC_ACTIONS_DROPDOWN_ACC_001: Keyboard Navigation
+**Title**: Keyboard Navigation
 
 **Description**: Verify Actions dropdown is accessible via keyboard
 

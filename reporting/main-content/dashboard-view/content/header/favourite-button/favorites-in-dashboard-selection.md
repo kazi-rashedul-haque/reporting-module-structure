@@ -1,4 +1,4 @@
-# TC_FAVORITE_INT_002: Favorites in Dashboard Selection
+**Title**: Favorites in Dashboard Selection
 
 **Description**: Verify favorited dashboards appear correctly in dashboard selection dropdown
 **Pre-Condition**: Some dashboards are favorited, others are not

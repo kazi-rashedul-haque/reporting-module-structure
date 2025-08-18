@@ -1,4 +1,3 @@
-**Test Case ID**: TC_COLLAPSE_SIDEBAR_EDGE_001
 **Title**: Sidebar Behavior on Different Screen Sizes
 **Description**: Validate correct collapse/expand behavior on various screen sizes (desktop, tablet, mobile).
 **Pre-Condition**: Application supports responsive layout.

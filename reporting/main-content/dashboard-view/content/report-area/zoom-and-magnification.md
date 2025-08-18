@@ -1,4 +1,4 @@
-# TC_REPORT_AREA_ACC_004: Zoom and Magnification
+**Title**: Zoom and Magnification
 
 **Description**: Verify report area works with browser zoom and magnification
 **Pre-Condition**: Browser zoom capabilities available

@@ -1,4 +1,4 @@
-# TC_SAVE_AS_NEW_NEG_003 - Description Too Long
+**Title**: Description Too Long
 
 * **Title**: Description Too Long
 * **Description**: Verify validation when description exceeds 240 characters

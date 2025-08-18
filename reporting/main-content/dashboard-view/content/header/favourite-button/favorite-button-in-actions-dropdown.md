@@ -1,4 +1,4 @@
-# TC_FAVORITE_INT_001: Favorite Button in Actions Dropdown
+**Title**: Favorite Button in Actions Dropdown
 
 **Description**: Verify consistency between header favorite button and Actions dropdown favorite option
 **Pre-Condition**: Dashboard with both header favorite button and Actions dropdown

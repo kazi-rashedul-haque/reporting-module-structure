@@ -1,4 +1,4 @@
-# TC_REPORT_AREA_005: Report Loading States
+**Title**: Report Loading States
 
 **Description**: Verify report area handles loading states appropriately
 **Pre-Condition**: Dashboard with reports that take time to load

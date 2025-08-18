@@ -1,4 +1,4 @@
-# TC_RENAME_MODAL_001: Rename Button Opens Modal
+**Title**: Rename Button Opens Modal
 
 **Description**: Verify rename button opens the rename modal
 

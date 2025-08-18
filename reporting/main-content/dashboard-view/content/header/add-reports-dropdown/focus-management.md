@@ -1,4 +1,4 @@
-# TC_ADD_REPORTS_ACC_003: Focus Management
+**Title**: Focus Management
 
 **Description**: Verify proper focus management in dropdown
 **Pre-Condition**: Add Reports dropdown is open

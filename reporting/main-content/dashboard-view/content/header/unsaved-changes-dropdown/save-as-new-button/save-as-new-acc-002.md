@@ -1,4 +1,4 @@
-# TC_SAVE_AS_NEW_ACC_002 - Screen Reader Support
+**Title**: Screen Reader Support
 
 * **Title**: Screen Reader Support
 * **Description**: Verify Save as New form is accessible to screen readers

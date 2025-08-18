@@ -1,4 +1,4 @@
-# TC_DELETE_MODAL_NEG_003: Network Error During Deletion
+**Title**: Network Error During Deletion
 
 **Description**: Verify handling of network errors during delete operation
 

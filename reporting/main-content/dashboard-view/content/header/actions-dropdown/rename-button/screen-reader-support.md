@@ -1,4 +1,4 @@
-# TC_RENAME_MODAL_ACC_002: Screen Reader Support
+**Title**: Screen Reader Support
 
 **Description**: Verify form is accessible to screen readers
 

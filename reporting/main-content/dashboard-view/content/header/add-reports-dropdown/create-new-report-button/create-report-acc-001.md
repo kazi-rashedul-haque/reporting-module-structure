@@ -1,4 +1,3 @@
-**Test Case ID**: TC_CREATE_REPORT_ACC_001
 **Title**: Keyboard Navigation
 **Description**: Verify modal is fully accessible via keyboard
 **Pre-Condition**: Create Report modal is open

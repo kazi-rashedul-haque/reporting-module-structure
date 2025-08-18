@@ -1,4 +1,4 @@
-# TC_REPORT_AREA_EDGE_001: Maximum Number of Reports
+**Title**: Maximum Number of Reports
 
 **Description**: Verify report area handles maximum number of reports
 **Pre-Condition**: System allows many reports on single dashboard

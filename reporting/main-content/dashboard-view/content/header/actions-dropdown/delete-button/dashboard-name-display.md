@@ -1,4 +1,4 @@
-# TC_DELETE_MODAL_006: Dashboard Name Display
+**Title**: Dashboard Name Display
 
 **Description**: Verify correct dashboard name is displayed in confirmation message
 

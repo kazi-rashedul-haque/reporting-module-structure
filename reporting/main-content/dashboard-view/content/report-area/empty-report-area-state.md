@@ -1,4 +1,4 @@
-# TC_REPORT_AREA_003: Empty Report Area State
+**Title**: Empty Report Area State
 
 **Description**: Verify report area displays appropriately when no reports are present
 **Pre-Condition**: Dashboard has no reports added

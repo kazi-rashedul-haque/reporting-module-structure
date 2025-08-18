@@ -1,4 +1,4 @@
-# TC_DELETE_MODAL_NEG_002: Delete Dashboard in Use
+**Title**: Delete Dashboard in Use
 
 **Description**: Verify behavior when dashboard is referenced elsewhere
 

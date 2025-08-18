@@ -1,4 +1,4 @@
-# TC_ADD_REPORTS_NEG_002: Dropdown Menu Fails to Open
+**Title**: Dropdown Menu Fails to Open
 
 **Description**: Verify handling when dropdown menu doesn't open
 **Pre-Condition**: Add Reports button is present but non-functional

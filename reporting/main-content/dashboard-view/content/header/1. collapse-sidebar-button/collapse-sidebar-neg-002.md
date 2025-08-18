@@ -1,4 +1,3 @@
-**Test Case ID**: TC_COLLAPSE_SIDEBAR_NEG_002
 **Title**: Collapse Button Click Has No Effect
 **Description**: Verify the system response if clicking the button does nothing or causes an error.
 **Pre-Condition**: Sidebar is expanded.

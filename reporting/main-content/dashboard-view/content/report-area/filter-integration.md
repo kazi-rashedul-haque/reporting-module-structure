@@ -1,4 +1,4 @@
-# TC_REPORT_AREA_INT_001: Filter Integration
+**Title**: Filter Integration
 
 **Description**: Verify report area updates correctly when filters are applied
 **Pre-Condition**: Dashboard has filters and multiple reports

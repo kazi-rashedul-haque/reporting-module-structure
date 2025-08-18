@@ -1,4 +1,4 @@
-# TC_DELETE_MODAL_003: Cancel Button Functionality
+**Title**: Cancel Button Functionality
 
 **Description**: Verify Cancel button closes modal without deleting
 

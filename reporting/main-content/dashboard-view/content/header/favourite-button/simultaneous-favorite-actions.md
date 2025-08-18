@@ -1,4 +1,4 @@
-# TC_FAVORITE_EDGE_002: Simultaneous Favorite Actions
+**Title**: Simultaneous Favorite Actions
 
 **Description**: Verify behavior when same dashboard is favorited from multiple sessions
 **Pre-Condition**: Same user logged in multiple browser sessions

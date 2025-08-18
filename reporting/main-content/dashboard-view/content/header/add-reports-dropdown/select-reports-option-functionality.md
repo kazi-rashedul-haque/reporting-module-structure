@@ -1,4 +1,4 @@
-# TC_ADD_REPORTS_003: Select Reports Option Functionality
+**Title**: Select Reports Option Functionality
 
 **Description**: Verify "Select Reports" option opens report selector modal
 **Pre-Condition**: Add Reports dropdown is open

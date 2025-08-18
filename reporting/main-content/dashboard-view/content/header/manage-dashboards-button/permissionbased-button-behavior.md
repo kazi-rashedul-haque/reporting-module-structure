@@ -1,4 +1,4 @@
-# TC_MANAGE_DASHBOARDS_INT_004: Permission-Based Button Behavior
+**Title**: Permission-Based Button Behavior
 
 **Description**: Verify button behavior varies appropriately based on user permissions
 **Pre-Condition**: Users with different permission levels

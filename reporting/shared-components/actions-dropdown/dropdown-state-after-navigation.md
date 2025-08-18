@@ -1,4 +1,4 @@
-# TC_ACTIONS_DROPDOWN_EDGE_002: Dropdown State After Navigation
+**Title**: Dropdown State After Navigation
 
 **Description**: Verify dropdown state when navigating away and back
 

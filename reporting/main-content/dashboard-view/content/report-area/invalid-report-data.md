@@ -1,4 +1,4 @@
-# TC_REPORT_AREA_NEG_002: Invalid Report Data
+**Title**: Invalid Report Data
 
 **Description**: Verify report area handles corrupted or invalid report data
 **Pre-Condition**: Dashboard contains reports with invalid data

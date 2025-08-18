@@ -1,4 +1,4 @@
-# TC_MANAGE_DASHBOARDS_003: Button State Consistency
+**Title**: Button State Consistency
 
 **Description**: Verify button maintains consistent appearance and behavior
 **Pre-Condition**: Various dashboard states available

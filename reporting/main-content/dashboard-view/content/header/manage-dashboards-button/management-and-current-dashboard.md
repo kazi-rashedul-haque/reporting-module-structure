@@ -1,4 +1,4 @@
-# TC_MANAGE_DASHBOARDS_INT_002: Management and Current Dashboard
+**Title**: Management and Current Dashboard
 
 **Description**: Verify current dashboard context is maintained in management view
 **Pre-Condition**: User is on specific dashboard

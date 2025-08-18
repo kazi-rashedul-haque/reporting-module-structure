@@ -1,4 +1,4 @@
-# TC_DELETE_MODAL_002: Modal Content Validation
+**Title**: Modal Content Validation
 
 **Description**: Verify modal displays correct content and structure
 

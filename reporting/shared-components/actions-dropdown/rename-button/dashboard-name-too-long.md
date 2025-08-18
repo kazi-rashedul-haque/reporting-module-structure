@@ -1,4 +1,4 @@
-# TC_RENAME_MODAL_NEG_002: Dashboard Name Too Long
+**Title**: Dashboard Name Too Long
 
 **Description**: Verify validation when dashboard name exceeds 120 characters
 

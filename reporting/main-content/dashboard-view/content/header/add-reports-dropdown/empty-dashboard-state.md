@@ -1,4 +1,4 @@
-# TC_ADD_REPORTS_EDGE_004: Empty Dashboard State
+**Title**: Empty Dashboard State
 
 **Description**: Verify Add Reports behavior on completely empty dashboard
 **Pre-Condition**: Dashboard has no reports added

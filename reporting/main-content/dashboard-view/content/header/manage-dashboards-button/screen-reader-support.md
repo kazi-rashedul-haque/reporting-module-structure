@@ -1,4 +1,4 @@
-# TC_MANAGE_DASHBOARDS_ACC_002: Screen Reader Support
+**Title**: Screen Reader Support
 
 **Description**: Verify button is compatible with screen readers
 **Pre-Condition**: Screen reader is active

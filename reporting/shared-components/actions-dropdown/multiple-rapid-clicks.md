@@ -1,4 +1,4 @@
-# TC_ACTIONS_DROPDOWN_EDGE_001: Multiple Rapid Clicks
+**Title**: Multiple Rapid Clicks
 
 **Description**: Verify dropdown behavior with rapid clicking
 

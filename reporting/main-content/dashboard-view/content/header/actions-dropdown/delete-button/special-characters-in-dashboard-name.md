@@ -1,4 +1,4 @@
-# TC_DELETE_MODAL_EDGE_004: Special Characters in Dashboard Name
+**Title**: Special Characters in Dashboard Name
 
 **Description**: Verify modal handles special characters in dashboard names
 
