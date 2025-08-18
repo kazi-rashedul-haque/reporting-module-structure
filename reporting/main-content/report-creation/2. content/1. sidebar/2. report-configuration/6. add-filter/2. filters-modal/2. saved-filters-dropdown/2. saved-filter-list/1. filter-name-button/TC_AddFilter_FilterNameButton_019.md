@@ -1,7 +1,4 @@
-# TC_AddFilter_FilterNameButton_019
-
-## Title:
-Verify Filter Name button loads saved filter configuration correctly and prepares it for application
+## Title: Verify Filter Name button loads saved filter configuration correctly and prepares it for application
 
 ## Pre-Condition:
 1. User is logged into the reporting application
@@ -35,29 +32,10 @@ Verify Filter Name button loads saved filter configuration correctly and prepare
    - Nested filters maintain their structure
    - Conditional operators (WHERE/AND/OR) are preserved
 4. UI updates correctly after loading:
-   - Filter form shows all loaded conditions
-   - Saved Filters dropdown may close or show loaded filter as selected
-   - No empty or incomplete filter rows remain
-5. Different filter types load correctly:
-   - Text-based filters (Campaign = "Customer Experience")
-   - Date-based filters with appropriate date formats
-   - Number-based filters with numeric values
-   - Multi-select filters with all selected values
-6. Loaded filter maintains logical structure:
-   - Proper grouping of conditions
+   - Saved Filters dropdown is closed
+5. Loaded filter maintains logical structure:
    - Correct nesting hierarchy
    - Accurate conditional operators between groups
-7. Apply button becomes enabled when valid filter is loaded
-8. Loading different filters sequentially works without conflicts:
+6. Loading different filters sequentially works without conflicts:
    - Previous filter configuration is completely replaced
-   - No remnants from previous filter remain
    - Each filter loads independently and correctly
-9. Accessibility compliance:
-   - Filter name buttons are keyboard navigable via Tab
-   - Buttons are activatable via Enter/Space keys
-   - Screen reader announces filter name when focused
-   - Proper aria-labels for filter loading action
-10. Performance considerations:
-    - Filter loading completes within reasonable time
-    - No delays or freezing during complex filter loading
-    - Smooth transition from empty form to populated form

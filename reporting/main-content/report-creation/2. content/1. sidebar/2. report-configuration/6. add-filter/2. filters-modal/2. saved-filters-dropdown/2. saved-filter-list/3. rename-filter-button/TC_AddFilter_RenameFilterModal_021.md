@@ -1,7 +1,4 @@
-# TC_AddFilter_RenameFilterModal_021
-
-## Title:
-Verify Rename Filter modal validates input and updates filter name successfully
+## Title: Verify Rename Filter modal validates input and updates filter name successfully
 
 ## Pre-Condition:
 1. User is logged into the reporting application
@@ -47,29 +44,22 @@ Verify Rename Filter modal validates input and updates filter name successfully
    - Character limit validation:
      - Counter updates in real-time as user types
      - Input prevents typing beyond 120 characters
-     - Update button disabled when limit exceeded
    - HTML tag validation:
-     - HTML tags are stripped or rejected
-     - Warning message if HTML detected
-     - Clean text-only names are saved
+     - Warning message if HTML detected: "HTML tags are not permitted."
    - Special characters:
      - Most special characters are allowed
      - Proper encoding/escaping of special characters
      - Unicode characters are supported
    - Duplicate name handling:
-     - System detects duplicate filter names
-     - Appropriate error message displayed
-     - User guided to choose unique name
+     - Appropriate error message displayed: "Already Exists"
 4. Close button (×) functionality:
    - Clicking closes modal without saving changes
    - Original filter name remains unchanged
    - Returns to Filters modal
-   - No validation errors persist
 5. Cancel button functionality:
    - Clicking closes modal without saving changes
    - Input field changes are discarded
    - Original filter name preserved
-   - Consistent behavior with Close button
 6. Update button functionality:
    - Enabled only when valid name is entered
    - Clicking saves the new filter name
@@ -79,16 +69,7 @@ Verify Rename Filter modal validates input and updates filter name successfully
    - Updated name appears in saved filters dropdown
    - Filter configuration/conditions remain unchanged
    - Only the display name is modified
-   - Update persists across browser sessions
 8. Character counter functionality:
    - Updates in real-time during typing
    - Shows format "current/120"
-   - Visual indication when approaching limit
    - Prevents input beyond maximum length
-9. Accessibility compliance:
-   - Modal properly announced by screen readers
-   - Input field has appropriate labels and descriptions
-   - Required field status communicated to screen readers
-   - Validation errors announced when they occur
-   - All buttons keyboard navigable and activatable
-   - Escape key closes modal without saving

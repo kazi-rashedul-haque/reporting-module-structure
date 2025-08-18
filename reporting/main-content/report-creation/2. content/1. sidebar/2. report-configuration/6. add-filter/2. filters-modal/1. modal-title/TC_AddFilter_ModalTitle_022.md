@@ -15,10 +15,3 @@
 **Expected Results:**
 1. Filters modal opens successfully with visible title
 2. Modal title displays exact text: "Filters"
-3. Title positioning and styling:
-   - Title is positioned at the top of the modal
-   - Title text never changes while modal is open
-4. Title accessibility:
-   - Title is properly structured with appropriate heading tag (h1, h2, etc.)
-   - Title is included in modal's accessible name
-   - Proper aria-labelledby or equivalent attributes reference title

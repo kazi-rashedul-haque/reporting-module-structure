@@ -1,7 +1,4 @@
-# TC_AddFilter_SavedFilters_010
-
-**Title:**
-Verify Saved Filters dropdown functionality for loading, searching, and managing saved filters
+**Title:** Verify Saved Filters dropdown functionality for loading, searching, and managing saved filters
 
 ## Pre-Condition:
 1. User is logged into the reporting application
@@ -17,9 +14,6 @@ Verify Saved Filters dropdown functionality for loading, searching, and managing
    - Verify filtered results
    - Clear search and verify all filters return
 4. Click on a saved filter name to load it
-5. Test rename functionality on a saved filter
-6. Test delete functionality on a saved filter
-7. Test with no saved filters available
 
 ## Expected Results:
 1. "Saved Filters" button is visible with dropdown arrow
@@ -30,14 +24,7 @@ Verify Saved Filters dropdown functionality for loading, searching, and managing
      - Filter name button (clickable to load)
      - Rename button (edit icon)
      - Delete button (trash icon)
-3. Search functionality:
-   - Search input is auto-focused when dropdown opens
-   - Typing filters the list dynamically
-   - Partial matches are supported
-   - Case-insensitive search
-   - Clear search (X button) resets to full list
-   - "No options to show" message when no results
-4. Loading saved filters:
+3. Loading saved filters:
    - Clicking filter name loads complete configuration
    - All conditions and nested filters are restored
    - Current filter form is replaced with saved configuration

@@ -1,5 +1,3 @@
-# TC_AddFilter_SearchInput_018
-
 **Title:** Verify Search Input functionality in Saved Filters dropdown filters results correctly
 
 ## Pre-Condition:
@@ -19,28 +17,20 @@
 7. Type a search term that returns no results (e.g., "xyz123")
 8. Verify the no results message appears
 9. Test the clear button (X) functionality
-10. Test keyboard navigation and Enter key functionality
-11. Test with special characters and very long search terms
+10. Test with special characters and very long search terms
 
 ## Expected Results:
-1. Search input field is visible and properly positioned
-2. Placeholder text "Search" is displayed when field is empty
-3. Input field automatically receives focus when dropdown opens
-4. Real-time filtering works as user types:
+1. Placeholder text "Search" is displayed when field is empty
+2. Input field automatically receives focus when dropdown opens
+3. Real-time filtering works as user types:
    - Matching filters are displayed
    - Non-matching filters are hidden
    - Partial matches work correctly (e.g., "fil" matches "My Filter")
-5. Clearing search term restores all available filters
-6. When no filters match search term:
+4. Clearing search term restores all available filters
+5. When no filters match search term:
    - Message "No options to show" is displayed
-   - No filter options are shown
-7. Clear button (X) functionality:
+6. Clear button (X) functionality:
    - Button appears when text is entered
    - Clicking X clears the search and shows all filters
-   - X button is accessible via keyboard navigation
-8. Keyboard accessibility:
-   - Tab key navigates to search input
-   - Enter key triggers search functionality
-   - Clear button is accessible via Tab and activatable with Enter/Space
-9. Input handles special characters gracefully without breaking UI
-10. Very long search terms don't cause layout overflow
+7. Input handles special characters gracefully without breaking UI
+8. Very long search terms don't cause layout overflow

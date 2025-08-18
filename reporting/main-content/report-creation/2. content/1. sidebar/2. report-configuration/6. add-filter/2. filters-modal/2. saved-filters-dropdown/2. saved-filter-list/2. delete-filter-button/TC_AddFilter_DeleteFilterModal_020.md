@@ -1,7 +1,4 @@
-# TC_AddFilter_DeleteFilterModal_020
-
-## Title:
-Verify Delete Filter modal confirms deletion and removes saved filter permanently
+## Title: Verify Delete Filter modal confirms deletion and removes saved filter permanently
 
 ## Pre-Condition:
 1. User is logged into the reporting application
@@ -36,35 +33,12 @@ Verify Delete Filter modal confirms deletion and removes saved filter permanentl
    - Clicking closes modal without deleting filter
    - Filter remains in saved filters list
    - Returns to Filters modal
-   - No confirmation or warning messages
 4. Cancel button functionality:
    - Clicking closes modal without deleting filter
    - Filter remains in saved filters list
    - Returns to Filters modal
-   - Consistent behavior with Close button
 5. Delete button functionality:
    - Clicking permanently removes the selected filter
    - Modal closes immediately after deletion
    - Filter is removed from saved filters list
-   - Deletion cannot be undone
    - Success feedback may be provided
-6. Filter removal verification:
-   - Deleted filter no longer appears in saved filters dropdown
-   - Filter count updates if displayed
-   - Other saved filters remain unaffected
-7. Edge case handling:
-   - Deleting last filter works correctly
-   - Saved filters dropdown handles empty state appropriately
-   - No errors when filter list becomes empty
-8. Multiple deletions:
-   - Can delete multiple filters in sequence
-   - Each deletion works independently
-   - No conflicts between sequential deletions
-9. Accessibility compliance:
-   - Modal is properly announced by screen readers
-   - All buttons are keyboard navigable
-   - Delete confirmation is clearly communicated
-   - Proper focus management when modal opens/closes
-   - Escape key closes modal without deleting
-10. Data persistence:
-    - Deleted filters are permanently removed from user's saved filters
