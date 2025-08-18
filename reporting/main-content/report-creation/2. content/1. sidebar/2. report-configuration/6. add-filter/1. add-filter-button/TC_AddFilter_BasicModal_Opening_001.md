@@ -1,9 +1,6 @@
-# TC_AddFilter_BasicModal_Opening_001
+**Title:** Verify Add Filter button successfully opens the Filters modal
 
-## Title:
-Verify Add Filter button successfully opens the Filters modal
-
-## Pre-Condition:
+**Pre-Condition:**
 1. User is logged into the reporting application
 2. User is on the report creation page
 3. Report type is selected (Metric Card, Line Chart, etc.)
@@ -32,6 +29,3 @@ Verify Add Filter button successfully opens the Filters modal
    - Save Filter button
    - Cancel button
    - Apply button
-4. Modal appears in the center of the screen
-5. Background is dimmed/overlaid
-6. Modal is properly accessible and focused

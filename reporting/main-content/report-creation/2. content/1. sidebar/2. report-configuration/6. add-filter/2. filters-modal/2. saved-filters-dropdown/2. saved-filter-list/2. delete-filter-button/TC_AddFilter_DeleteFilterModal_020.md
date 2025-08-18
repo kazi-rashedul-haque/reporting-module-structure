@@ -11,7 +11,7 @@ Verify Delete Filter modal confirms deletion and removes saved filter permanentl
 5. Saved Filters dropdown is expanded showing filter list
 
 ## Test Steps:
-1. Locate a saved filter with delete button in the filter list
+1. Locate a saved filter with delete button in the filter list when hovered
 2. Click the "Delete Filter" button (trash icon)
 3. Verify Delete Filter confirmation modal opens
 4. Examine all modal elements and content
@@ -68,5 +68,3 @@ Verify Delete Filter modal confirms deletion and removes saved filter permanentl
    - Escape key closes modal without deleting
 10. Data persistence:
     - Deleted filters are permanently removed from user's saved filters
-    - Deletion persists across browser sessions
-    - No recovery mechanism for accidentally deleted filters

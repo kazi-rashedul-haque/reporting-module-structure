@@ -67,9 +67,3 @@ Verify conditional operators (WHERE, AND, OR) display and function correctly in 
    - Applied filters maintain operator selections
    - Operator configuration saved with filter
    - Logical structure preserved across sessions
-10. Visual design and UX:
-    - Operators clearly indicate logical relationships
-    - Color coding or styling differentiates operator types
-    - Operators align properly with filter conditions
-    - Sufficient spacing and visual hierarchy
-    - Operators don't interfere with filter condition readability
