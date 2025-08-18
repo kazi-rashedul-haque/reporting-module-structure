@@ -1,7 +1,7 @@
 **Title:** Verify Close button with maximum character data.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Reports page.
 3. Click the Create Report button to open the modal.
 4. Enter exactly 120 characters in the Report Name field.

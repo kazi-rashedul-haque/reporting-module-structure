@@ -92,8 +92,3 @@ Verify Rename Filter modal validates input and updates filter name successfully
    - Validation errors announced when they occur
    - All buttons keyboard navigable and activatable
    - Escape key closes modal without saving
-10. Error handling:
-    - Network errors during save are handled gracefully
-    - User notified if update fails
-    - Modal remains open to allow retry
-    - No data loss during error conditions

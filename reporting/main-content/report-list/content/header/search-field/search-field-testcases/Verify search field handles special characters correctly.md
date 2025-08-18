@@ -1,7 +1,7 @@
 **Title:** Verify search field handles special characters correctly.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the Workspace as an authenticated user.
 2. Navigate to the Reports page.
 3. Enter special characters in the search field (e.g., @, #, $, %, &, *, (, ), -, _, +, =).
 4. Observe system behavior and filtering results.

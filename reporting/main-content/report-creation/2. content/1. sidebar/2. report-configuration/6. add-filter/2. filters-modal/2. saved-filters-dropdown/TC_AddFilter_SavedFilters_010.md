@@ -1,6 +1,6 @@
 # TC_AddFilter_SavedFilters_010
 
-## Title:
+**Title:**
 Verify Saved Filters dropdown functionality for loading, searching, and managing saved filters
 
 ## Pre-Condition:
@@ -41,18 +41,3 @@ Verify Saved Filters dropdown functionality for loading, searching, and managing
    - Clicking filter name loads complete configuration
    - All conditions and nested filters are restored
    - Current filter form is replaced with saved configuration
-5. Rename functionality:
-   - Opens rename modal with current name pre-filled
-   - Same validation as Save Filter (120 chars, required, no HTML)
-   - Update button saves changes
-   - Cancel button discards changes
-6. Delete functionality:
-   - Opens confirmation modal: "Are you sure you want to delete '<Filter Name>'?"
-   - Delete button (red) confirms deletion
-   - Cancel button cancels deletion
-   - Close button (×) cancels deletion
-7. When no saved filters exist:
-   - Dropdown shows appropriate empty state message
-   - Search input is disabled or hidden
-8. All interactions are keyboard accessible
-9. Screen reader support for all saved filter operations

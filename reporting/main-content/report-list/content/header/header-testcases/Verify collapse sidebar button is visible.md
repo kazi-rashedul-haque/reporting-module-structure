@@ -5,5 +5,5 @@
 2. Navigate to the Reports page.
 3. Locate the collapse sidebar button in the header section.
 
-Expected Result:
-Collapse sidebar button is displayed in the header section
+**Expected Result:**
+* Collapse sidebar button is displayed in the header section

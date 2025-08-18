@@ -35,4 +35,3 @@ Verify Add Nested Filter functionality creates proper nested filter structure wi
 8. Logical operators properly connect filter conditions
 9. Filter structure displays as: WHERE condition AND/OR nested condition AND/OR additional nested conditions
 10. Each filter level maintains its own complete set of operand options
-11. Screen reader properly announces the nested structure

@@ -19,7 +19,7 @@
   13. Ensure the "Add to Dashboard" button state before any selection.
 
 **Expected Result:**
-  Search textbox accepts and displays the valid input text,
-  search results display a list of matching dashboards based on the search criteria
-  each dashboard option appears with a selectable checkbox, dashboard names are clearly visible and properly formatted, search is case-insensitive and supports partial matching, "Add to Dashboard" button remains disabled until at least one dashboard is selected, search results update dynamically as user types, no "No options to show" message appears when valid results exist.
+ * Search textbox accepts and displays the valid input text,
+ * search results display a list of matching dashboards based on the search criteria
+ * each dashboard option appears with a selectable checkbox, dashboard names are clearly visible and properly formatted, search is case-insensitive and supports partial matching, "Add to Dashboard" button remains disabled until at least one dashboard is selected, search results update dynamically as user types, no "No options to show" message appears when valid results exist.
 

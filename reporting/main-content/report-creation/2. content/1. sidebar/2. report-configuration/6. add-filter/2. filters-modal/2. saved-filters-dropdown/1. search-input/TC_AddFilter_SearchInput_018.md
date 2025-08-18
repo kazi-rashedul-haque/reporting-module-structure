@@ -1,7 +1,6 @@
 # TC_AddFilter_SearchInput_018
 
-## Title:
-Verify Search Input functionality in Saved Filters dropdown filters results correctly
+**Title:** Verify Search Input functionality in Saved Filters dropdown filters results correctly
 
 ## Pre-Condition:
 1. User is logged into the reporting application
@@ -45,6 +44,3 @@ Verify Search Input functionality in Saved Filters dropdown filters results corr
    - Clear button is accessible via Tab and activatable with Enter/Space
 9. Input handles special characters gracefully without breaking UI
 10. Very long search terms don't cause layout overflow
-11. Screen reader announces search field as "Search for filters"
-12. Fast typing and multiple search term changes handled without lag
-13. Search works correctly even when UI is loading other components

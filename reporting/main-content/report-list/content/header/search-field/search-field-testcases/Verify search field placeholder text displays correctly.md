@@ -1,7 +1,7 @@
 **Title:** Verify search field placeholder text displays correctly.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the workspace as an authenticated user.
 2. Navigate to the Reports page.
 3. Locate the search field in the header.
 4. Observe the search field without clicking or entering any text.

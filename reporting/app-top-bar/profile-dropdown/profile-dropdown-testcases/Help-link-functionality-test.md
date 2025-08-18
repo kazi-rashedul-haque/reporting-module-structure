@@ -1,12 +1,8 @@
 **Title:** Verify Help link opens external help documentation
 
-**Pre-conditions:**
-* User is logged in as an authenticated user
-* Internet connection is available
-
 **Test Steps:**
 1. Login to the workspace as an authenticated user.
-2. Navigate to Dashboard page in the application.
+2. Navigate to Dashboard page.
 3. Click on the profile avatar button to open the dropdown.
 4. Locate the "Help" option in the dropdown menu.
 5. Verify the Help option displays with an appropriate icon.

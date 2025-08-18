@@ -1,7 +1,7 @@
 **Title:** Verify search field clears and shows all reports when emptied.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the Workspace as an authenticated user.
 2. Navigate to the Reports page.
 3. Enter text in the search field to filter results.
 4. Verify that filtered results are displayed.

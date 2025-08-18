@@ -1,7 +1,7 @@
 **Title:** Verify Next button works at minimum and maximum character boundaries.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the Workspace as an authenticated user.
 2. Navigate to the Reports page.
 3. Click the Create Report button to open the modal.
 4. Enter minimum report name "A" (1 character) and leave description empty.
@@ -14,4 +14,4 @@
 11. Click Next and verify successful progression.
 
 **Expected Result:**
-The Next button should work correctly at all valid character boundaries, users should successfully proceed to the Report Configuration page in all boundary test cases, all boundary inputs should be accepted without errors, and data should be preserved correctly during navigation for all character limit combinations.
+The Next button should work correctly at all valid character boundaries, users should successfully proceed to the Report details page

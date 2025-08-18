@@ -1,21 +1,17 @@
 **Title:** Verify Continue Editing button closes modal and preserves changes
 
-**Pre-conditions:**
-* At least one report exists in the report list
-
-**Test Steps:**
-1. Login to the workspace as an authenticated user.
-2. Navigate to the Reporting page.
-3. Select any existing report from the Reports table to open the report details page.
-4. Modify the report configuration (e.g., changing report type, axis, or dataset).
-5. Do not save the changes.
-6. Attempt to navigate away from the report page to trigger the warning modal.
-7. Click the "Continue Editing" button in the modal.
-8. Verify the modal closes.
-9. Verify the user can continue editing the report.
-10. Verify no changes are discarded and all modifications remain visible.
+Precondition:
+At least one report is available in the report list.
+**Steps:**
+1. Log in to the workspace.
+2. Go to the Reporting page.
+3. Open any existing report.
+4. Make some changes to the report (e.g., change type, axis, or dataset).
+5. Click Show Results to apply the changes.
+6. Without saving, try to leave the page (this should open a warning popup).
+7. In the popup, click Continue Editing.
 
 **Expected Result:**
-* Clicking "Continue Editing" should close the modal.
-* No changes should be discarded.
-* All previous modifications should remain visible and editable.
+The popup closes.
+You stay on the report editing page.
+All your changes are still there and editable.

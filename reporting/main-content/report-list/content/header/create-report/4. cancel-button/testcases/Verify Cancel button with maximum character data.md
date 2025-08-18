@@ -1,12 +1,11 @@
 **Title:** Verify Cancel button with maximum character data.
 
 **Test Steps:**
-1. Login to the application as an authenticated user.
+1. Login to the Workspace as an authenticated user.
 2. Navigate to the Reports page.
 3. Click the Create Report button to open the modal.
 4. Enter exactly 120 characters in the Report Name field.
 5. Enter exactly 240 characters in the Description field.
-6. Verify both character counters show maximum values "120/120" and "240/240".
 7. Click the Cancel button.
 8. Verify the modal closes immediately.
 9. Click the Create Report button again to reopen the modal.
