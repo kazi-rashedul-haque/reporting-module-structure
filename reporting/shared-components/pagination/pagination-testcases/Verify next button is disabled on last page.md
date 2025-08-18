@@ -1,12 +1,12 @@
 **Title:** Verify next button is disabled on last page
 
 **Preconditions:**
-  1. More than 10 reports exist in the system.
-  2. User is currently on the last page of the report list.
+  1. More than 20 {ITEM_TYPE_PLURAL} exist in the {ITEM_TYPE} list.
+  2. User is currently on the last page of the {ITEM_TYPE} list.
 
 **Test Steps:**
   1. Login to the workspace as an authenticated user.
-  2. Navigate to the Report list page.
+  2. Navigate to the {PAGE_NAME} page.
   3. Navigate to the last page using pagination controls.
   4. Verify that the last page number is highlighted as active.
   5. Check the state of the "Next" arrow button.

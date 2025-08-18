@@ -9,7 +9,7 @@
 3. Verify the sidebar navigation is visible on the left side.
 4. Locate the "Dashboard" in the sidebar navigation.
 6. Click on the Dashboard.
-7. Verify navigation to dashboard page occurs successfully.
+7. Verify navigation to dashboard view page occurs successfully.
 
 **Expected Result:**
 • Dashboard link is clearly visible in the sidebar navigation

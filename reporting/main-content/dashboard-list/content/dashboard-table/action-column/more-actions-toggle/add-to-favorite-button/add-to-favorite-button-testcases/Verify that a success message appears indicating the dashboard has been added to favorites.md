@@ -3,7 +3,6 @@
 **Preconditions:**
 1. User created dashboard exists in the dashboard table.
 
-
 **Test Steps:**
 1. Login to the application as an authenticated user.
 2. Navigate to the Dashboard List page.

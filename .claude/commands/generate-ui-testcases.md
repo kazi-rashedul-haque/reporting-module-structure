@@ -8,7 +8,7 @@ You must Use playwright mcp to:
     - Email: superuser@ideascale.me
     - Password: brewski01
 
-Navigate to: Dashboard page
+Navigate to: Report List page
 Select the Reports table existing any report to open report details page
 Target directory:/$ARGUMENTS
 
