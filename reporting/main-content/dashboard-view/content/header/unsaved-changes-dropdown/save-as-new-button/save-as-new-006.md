@@ -1,4 +1,4 @@
-# TC_SAVE_AS_NEW_006 - Save Changes Success Flow
+**Title**: Save Changes Success Flow
 
 * **Title**: Save Changes Success Flow
 * **Description**: Verify successful dashboard creation preserving current state

@@ -1,4 +1,4 @@
-# TC_ADD_REPORTS_ACC_001: Keyboard Navigation
+**Title**: Keyboard Navigation
 
 **Description**: Verify Add Reports dropdown is accessible via keyboard
 **Pre-Condition**: Dashboard with Add Reports button is loaded

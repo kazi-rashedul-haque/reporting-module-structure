@@ -1,4 +1,4 @@
-# TC_MANAGE_DASHBOARDS_004: Button with Applied Filters
+**Title**: Button with Applied Filters
 
 **Description**: Verify button works correctly when filters are applied
 **Pre-Condition**: Various filters are applied to dashboard

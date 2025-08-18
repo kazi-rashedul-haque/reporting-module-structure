@@ -1,4 +1,4 @@
-# TC_FAVORITE_006: Visual State Indicators
+**Title**: Visual State Indicators
 
 **Description**: Verify clear visual distinction between favorite states
 **Pre-Condition**: Access to both favorited and non-favorited dashboards

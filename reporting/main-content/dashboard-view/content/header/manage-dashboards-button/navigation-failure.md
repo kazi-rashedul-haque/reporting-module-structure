@@ -1,4 +1,4 @@
-# TC_MANAGE_DASHBOARDS_NEG_002: Navigation Failure
+**Title**: Navigation Failure
 
 **Description**: Verify handling when navigation to management view fails
 **Pre-Condition**: Network issues or permission problems simulated

@@ -1,4 +1,4 @@
-# TC_MANAGE_DASHBOARDS_002: Manage Dashboards Button Click
+**Title**: Manage Dashboards Button Click
 
 **Description**: Verify clicking Manage Dashboards button navigates appropriately
 **Pre-Condition**: Manage Dashboards button is visible

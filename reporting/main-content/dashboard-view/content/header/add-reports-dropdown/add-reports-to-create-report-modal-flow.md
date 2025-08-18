@@ -1,4 +1,4 @@
-# TC_ADD_REPORTS_INT_002: Add Reports to Create Report Modal Flow
+**Title**: Add Reports to Create Report Modal Flow
 
 **Description**: Verify complete flow from dropdown to creating new report
 **Pre-Condition**: Dashboard is ready for new reports

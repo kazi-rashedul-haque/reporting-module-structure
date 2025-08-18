@@ -1,4 +1,4 @@
-# TC_REPORT_AREA_EDGE_005: Mixed Loading Times
+**Title**: Mixed Loading Times
 
 **Description**: Verify report area handles reports with very different loading times
 **Pre-Condition**: Reports have varied complexity and loading times

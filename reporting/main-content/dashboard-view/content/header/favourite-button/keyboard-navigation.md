@@ -1,4 +1,4 @@
-# TC_FAVORITE_ACC_001: Keyboard Navigation
+**Title**: Keyboard Navigation
 
 **Description**: Verify favorite button is accessible via keyboard
 **Pre-Condition**: Dashboard with favorite button is loaded

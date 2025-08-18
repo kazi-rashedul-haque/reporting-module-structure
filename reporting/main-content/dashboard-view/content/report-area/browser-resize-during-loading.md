@@ -1,4 +1,4 @@
-# TC_REPORT_AREA_EDGE_004: Browser Resize During Loading
+**Title**: Browser Resize During Loading
 
 **Description**: Verify report area handles browser resize during report loading
 **Pre-Condition**: Reports are loading when resize occurs

@@ -1,4 +1,4 @@
-# TC_REPORT_AREA_EDGE_002: Very Large Report Cards
+**Title**: Very Large Report Cards
 
 **Description**: Verify report area handles reports with large data visualizations
 **Pre-Condition**: Reports can contain large or complex visualizations

@@ -1,4 +1,4 @@
-# TC_RENAME_MODAL_EDGE_001: Maximum Valid Input Length
+**Title**: Maximum Valid Input Length
 
 **Description**: Verify behavior with maximum allowed input lengths
 

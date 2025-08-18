@@ -1,4 +1,4 @@
-# TC_MANAGE_DASHBOARDS_NEG_003: Insufficient Permissions
+**Title**: Insufficient Permissions
 
 **Description**: Verify behavior when user lacks management permissions
 **Pre-Condition**: User with limited dashboard management permissions

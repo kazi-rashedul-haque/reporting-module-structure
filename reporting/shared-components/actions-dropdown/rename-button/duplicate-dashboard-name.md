@@ -1,4 +1,4 @@
-# TC_RENAME_MODAL_NEG_006: Duplicate Dashboard Name
+**Title**: Duplicate Dashboard Name
 
 **Description**: Verify handling of duplicate dashboard names
 

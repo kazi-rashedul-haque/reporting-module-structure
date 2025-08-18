@@ -1,4 +1,4 @@
-# TC_FAVORITE_ACC_002: Screen Reader Support
+**Title**: Screen Reader Support
 
 **Description**: Verify favorite button is compatible with screen readers
 **Pre-Condition**: Screen reader is active

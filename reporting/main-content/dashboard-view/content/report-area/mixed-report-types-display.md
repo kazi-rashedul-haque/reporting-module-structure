@@ -1,4 +1,4 @@
-# TC_REPORT_AREA_006: Mixed Report Types Display
+**Title**: Mixed Report Types Display
 
 **Description**: Verify report area displays different report types correctly
 **Pre-Condition**: Dashboard has various report types (charts, tables, metrics)

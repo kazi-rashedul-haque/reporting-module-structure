@@ -1,4 +1,4 @@
-# TC_SAVE_AS_NEW_002 - Save as New Modal Opens
+**Title**: Save as New Modal Opens
 
 * **Title**: Save as New Modal Opens
 * **Description**: Verify clicking Save as New button opens Create Dashboard modal

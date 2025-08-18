@@ -1,4 +1,4 @@
-# TC_FAVORITE_001: Favorite Button Visibility
+**Title**: Favorite Button Visibility
 
 **Description**: Verify favorite button is visible and displays correct initial state
 **Pre-Condition**: User is on a dashboard view

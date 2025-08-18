@@ -1,4 +1,4 @@
-# TC_REPORT_AREA_004: Scrollbar Functionality
+**Title**: Scrollbar Functionality
 
 **Description**: Verify scrollbar appears and functions when needed
 **Pre-Condition**: Dashboard has enough reports to exceed visible area

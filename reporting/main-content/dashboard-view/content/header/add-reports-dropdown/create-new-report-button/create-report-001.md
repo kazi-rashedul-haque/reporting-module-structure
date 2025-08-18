@@ -1,4 +1,3 @@
-**Test Case ID**: TC_CREATE_REPORT_001
 **Title**: Create New Report Modal Opens
 **Description**: Verify Create New Report button opens the creation modal
 **Pre-Condition**: Add Reports dropdown is open

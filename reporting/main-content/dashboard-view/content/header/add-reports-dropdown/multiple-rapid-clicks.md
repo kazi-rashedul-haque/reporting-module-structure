@@ -1,4 +1,4 @@
-# TC_ADD_REPORTS_EDGE_002: Multiple Rapid Clicks
+**Title**: Multiple Rapid Clicks
 
 **Description**: Verify dropdown behavior with rapid clicking
 **Pre-Condition**: Add Reports button is visible

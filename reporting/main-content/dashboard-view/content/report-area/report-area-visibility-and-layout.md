@@ -1,4 +1,4 @@
-# TC_REPORT_AREA_001: Report Area Visibility and Layout
+**Title**: Report Area Visibility and Layout
 
 **Description**: Verify report area is visible and properly laid out on dashboard
 **Pre-Condition**: User is on dashboard view with reports

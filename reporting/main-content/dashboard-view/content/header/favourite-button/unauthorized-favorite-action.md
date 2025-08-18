@@ -1,4 +1,4 @@
-# TC_FAVORITE_NEG_003: Unauthorized Favorite Action
+**Title**: Unauthorized Favorite Action
 
 **Description**: Verify behavior when user lacks permission to favorite
 **Pre-Condition**: User with restricted permissions

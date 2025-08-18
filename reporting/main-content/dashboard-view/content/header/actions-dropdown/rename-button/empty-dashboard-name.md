@@ -1,4 +1,4 @@
-# TC_RENAME_MODAL_NEG_001: Empty Dashboard Name
+**Title**: Empty Dashboard Name
 
 **Description**: Verify validation when dashboard name is empty
 

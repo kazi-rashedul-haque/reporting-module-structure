@@ -1,4 +1,4 @@
-# TC_REPORT_AREA_ACC_003: High Contrast Mode
+**Title**: High Contrast Mode
 
 **Description**: Verify report area works properly in high contrast mode
 **Pre-Condition**: High contrast mode is enabled

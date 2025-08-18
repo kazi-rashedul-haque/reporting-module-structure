@@ -1,4 +1,4 @@
-# TC_MANAGE_DASHBOARDS_001: Manage Dashboards Button Visibility
+**Title**: Manage Dashboards Button Visibility
 
 **Description**: Verify Manage Dashboards button is visible and accessible in header
 **Pre-Condition**: User is on dashboard view

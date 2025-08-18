@@ -1,4 +1,4 @@
-# TC_RENAME_MODAL_ACC_003: Focus Management
+**Title**: Focus Management
 
 **Description**: Verify proper focus management throughout interaction
 

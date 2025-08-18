@@ -1,4 +1,4 @@
-# TC_ACTIONS_DROPDOWN_003: Set as Default Option
+**Title**: Set as Default Option
 
 **Description**: Verify "Set as Default" option is present and functional
 

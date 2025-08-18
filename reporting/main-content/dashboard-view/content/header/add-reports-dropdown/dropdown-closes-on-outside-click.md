@@ -1,4 +1,4 @@
-# TC_ADD_REPORTS_005: Dropdown Closes on Outside Click
+**Title**: Dropdown Closes on Outside Click
 
 **Description**: Verify dropdown closes when clicking outside
 **Pre-Condition**: Add Reports dropdown is open

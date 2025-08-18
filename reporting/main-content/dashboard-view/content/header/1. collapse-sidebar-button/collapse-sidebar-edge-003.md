@@ -1,4 +1,3 @@
-**Test Case ID**: TC_COLLAPSE_SIDEBAR_EDGE_003
 **Title**: Sidebar Animation Smoothness
 **Description**: Validate that collapse/expand transition has proper animation and isn't broken or delayed.
 **Pre-Condition**: Default Dashboard view.

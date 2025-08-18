@@ -1,4 +1,4 @@
-# TC_ACTIONS_DROPDOWN_001: Actions Dropdown Visibility
+**Title**: Actions Dropdown Visibility
 
 **Description**: Verify Actions dropdown button is visible and clickable on dashboard header
 

@@ -1,4 +1,4 @@
-# TC_REPORT_AREA_ACC_001: Keyboard Navigation
+**Title**: Keyboard Navigation
 
 **Description**: Verify report area is navigable via keyboard
 **Pre-Condition**: Dashboard has multiple reports in report area

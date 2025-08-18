@@ -1,4 +1,4 @@
-# TC_ADD_REPORTS_001: Add Reports Dropdown Visibility
+**Title**: Add Reports Dropdown Visibility
 
 **Description**: Verify Add Reports dropdown appears after creating new dashboard
 **Pre-Condition**: User creates a new dashboard and is redirected to dashboard view

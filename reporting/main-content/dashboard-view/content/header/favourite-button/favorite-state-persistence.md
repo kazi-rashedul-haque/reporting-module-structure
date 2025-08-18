@@ -1,4 +1,4 @@
-# TC_FAVORITE_004: Favorite State Persistence
+**Title**: Favorite State Persistence
 
 **Description**: Verify favorite status persists across sessions and navigation
 **Pre-Condition**: Dashboard has been marked as favorite

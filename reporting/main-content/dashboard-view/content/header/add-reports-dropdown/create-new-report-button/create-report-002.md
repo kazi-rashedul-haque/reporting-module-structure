@@ -1,4 +1,3 @@
-**Test Case ID**: TC_CREATE_REPORT_002
 **Title**: Modal Structure Validation
 **Description**: Verify modal contains all required elements and structure
 **Pre-Condition**: Create Report modal is open

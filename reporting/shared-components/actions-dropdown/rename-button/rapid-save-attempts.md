@@ -1,4 +1,4 @@
-# TC_RENAME_MODAL_EDGE_003: Rapid Save Attempts
+**Title**: Rapid Save Attempts
 
 **Description**: Verify behavior with rapid clicking of Save button
 

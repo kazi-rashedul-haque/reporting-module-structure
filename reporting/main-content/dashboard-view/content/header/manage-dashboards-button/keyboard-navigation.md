@@ -1,4 +1,4 @@
-# TC_MANAGE_DASHBOARDS_ACC_001: Keyboard Navigation
+**Title**: Keyboard Navigation
 
 **Description**: Verify button is fully accessible via keyboard
 **Pre-Condition**: Manage Dashboards button is available

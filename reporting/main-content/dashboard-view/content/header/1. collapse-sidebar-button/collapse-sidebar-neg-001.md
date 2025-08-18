@@ -1,4 +1,3 @@
-**Test Case ID**: TC_COLLAPSE_SIDEBAR_NEG_001
 **Title**: Collapse Button is Not Present
 **Description**: Validate behavior when the collapse button is unexpectedly missing or disabled.
 **Pre-Condition**: User is on the Dashboard view.

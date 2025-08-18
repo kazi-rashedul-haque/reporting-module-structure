@@ -1,4 +1,4 @@
-# TC_RENAME_MODAL_NEG_003: Description Too Long
+**Title**: Description Too Long
 
 **Description**: Verify validation when description exceeds 240 characters
 

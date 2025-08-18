@@ -1,4 +1,4 @@
-# TC_SAVE_AS_NEW_NEG_006 - Duplicate Dashboard Name
+**Title**: Duplicate Dashboard Name
 
 * **Title**: Duplicate Dashboard Name
 * **Description**: Verify handling when dashboard name already exists

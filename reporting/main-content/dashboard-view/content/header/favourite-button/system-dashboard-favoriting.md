@@ -1,4 +1,4 @@
-# TC_FAVORITE_NEG_004: System Dashboard Favoriting
+**Title**: System Dashboard Favoriting
 
 **Description**: Verify behavior when trying to favorite system-generated dashboard
 **Pre-Condition**: User is on system-generated "Legacy Dashboard"

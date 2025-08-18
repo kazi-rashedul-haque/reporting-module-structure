@@ -1,4 +1,4 @@
-# TC_FAVORITE_NEG_001: Favorite Button Missing
+**Title**: Favorite Button Missing
 
 **Description**: Verify system behavior when favorite button is not present
 **Pre-Condition**: Dashboard where favorite button should appear

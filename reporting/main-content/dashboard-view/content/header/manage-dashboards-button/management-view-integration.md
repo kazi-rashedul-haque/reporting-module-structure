@@ -1,4 +1,4 @@
-# TC_MANAGE_DASHBOARDS_INT_001: Management View Integration
+**Title**: Management View Integration
 
 **Description**: Verify seamless integration with dashboard management interface
 **Pre-Condition**: Management interface is available

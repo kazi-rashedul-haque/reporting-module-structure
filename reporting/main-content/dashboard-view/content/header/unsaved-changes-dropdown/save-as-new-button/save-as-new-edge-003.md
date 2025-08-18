@@ -1,4 +1,4 @@
-# TC_SAVE_AS_NEW_EDGE_003 - Rapid Save as New Attempts
+**Title**: Rapid Save as New Attempts
 
 * **Title**: Rapid Save as New Attempts
 * **Description**: Verify behavior with rapid clicking of Save Changes button

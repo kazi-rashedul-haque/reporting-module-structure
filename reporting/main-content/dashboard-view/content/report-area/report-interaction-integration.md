@@ -1,4 +1,4 @@
-# TC_REPORT_AREA_INT_003: Report Interaction Integration
+**Title**: Report Interaction Integration
 
 **Description**: Verify report area integrates well with individual report interactions
 **Pre-Condition**: Reports have interactive elements (drill-down, tooltips)

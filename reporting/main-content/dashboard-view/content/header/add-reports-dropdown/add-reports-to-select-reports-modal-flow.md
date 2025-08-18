@@ -1,4 +1,4 @@
-# TC_ADD_REPORTS_INT_001: Add Reports to Select Reports Modal Flow
+**Title**: Add Reports to Select Reports Modal Flow
 
 **Description**: Verify complete flow from dropdown to adding reports
 **Pre-Condition**: Reports exist in the system

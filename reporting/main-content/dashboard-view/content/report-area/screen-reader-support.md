@@ -1,4 +1,4 @@
-# TC_REPORT_AREA_ACC_002: Screen Reader Support
+**Title**: Screen Reader Support
 
 **Description**: Verify report area is accessible to screen readers
 **Pre-Condition**: Screen reader is active

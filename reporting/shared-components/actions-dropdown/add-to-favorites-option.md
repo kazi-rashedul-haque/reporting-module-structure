@@ -1,4 +1,4 @@
-# TC_ACTIONS_DROPDOWN_006: Add to Favorites Option
+**Title**: Add to Favorites Option
 
 **Description**: Verify "Add to Favorites" option functionality
 

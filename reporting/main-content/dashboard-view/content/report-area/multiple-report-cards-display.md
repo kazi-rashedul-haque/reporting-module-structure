@@ -1,4 +1,4 @@
-# TC_REPORT_AREA_002: Multiple Report Cards Display
+**Title**: Multiple Report Cards Display
 
 **Description**: Verify multiple report cards display correctly in report area
 **Pre-Condition**: Dashboard has multiple reports added

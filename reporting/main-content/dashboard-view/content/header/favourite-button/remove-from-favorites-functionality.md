@@ -1,4 +1,4 @@
-# TC_FAVORITE_003: Remove from Favorites Functionality
+**Title**: Remove from Favorites Functionality
 
 **Description**: Verify favorite dashboard can be removed from favorites
 **Pre-Condition**: Dashboard is currently favorited (button shows filled state)

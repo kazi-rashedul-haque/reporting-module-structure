@@ -1,4 +1,4 @@
-# TC_DELETE_MODAL_001: Delete Button Opens Modal
+**Title**: Delete Button Opens Modal
 
 **Description**: Verify delete button opens the delete confirmation modal
 

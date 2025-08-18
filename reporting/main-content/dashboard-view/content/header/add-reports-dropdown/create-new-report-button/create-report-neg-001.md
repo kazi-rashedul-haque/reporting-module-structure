@@ -1,4 +1,3 @@
-**Test Case ID**: TC_CREATE_REPORT_NEG_001
 **Title**: Empty Report Name Validation
 **Description**: Verify validation when report name field is empty
 **Pre-Condition**: Create Report modal is open

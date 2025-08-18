@@ -1,4 +1,4 @@
-# TC_RENAME_MODAL_005: Save Changes Success
+**Title**: Save Changes Success
 
 **Description**: Verify successful dashboard rename operation
 

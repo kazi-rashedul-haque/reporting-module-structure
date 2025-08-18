@@ -1,4 +1,4 @@
-# TC_DELETE_MODAL_EDGE_003: Very Long Dashboard Names
+**Title**: Very Long Dashboard Names
 
 **Description**: Verify modal handles very long dashboard names
 

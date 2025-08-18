@@ -1,4 +1,3 @@
-**Test Case ID**: TC_COLLAPSE_SIDEBAR_ACC_001
 **Title**: Keyboard Accessibility for Collapse Button
 **Description**: Ensure the collapse/expand button is keyboard-accessible via tab navigation.
 **Pre-Condition**: Dashboard is open.

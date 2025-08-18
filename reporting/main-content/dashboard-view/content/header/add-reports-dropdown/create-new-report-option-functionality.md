@@ -1,4 +1,4 @@
-# TC_ADD_REPORTS_004: Create New Report Option Functionality
+**Title**: Create New Report Option Functionality
 
 **Description**: Verify "Create New Report" option opens report creation modal
 **Pre-Condition**: Add Reports dropdown is open

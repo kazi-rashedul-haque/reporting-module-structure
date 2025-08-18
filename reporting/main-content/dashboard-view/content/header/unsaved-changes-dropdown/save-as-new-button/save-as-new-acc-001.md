@@ -1,4 +1,4 @@
-# TC_SAVE_AS_NEW_ACC_001 - Keyboard Navigation
+**Title**: Keyboard Navigation
 
 * **Title**: Keyboard Navigation
 * **Description**: Verify Save as New modal is fully accessible via keyboard

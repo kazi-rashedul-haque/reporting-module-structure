@@ -1,4 +1,4 @@
-# TC_REPORT_AREA_INT_002: Dashboard Navigation Integration
+**Title**: Dashboard Navigation Integration
 
 **Description**: Verify report area behaves correctly during dashboard navigation
 **Pre-Condition**: Multiple dashboards available

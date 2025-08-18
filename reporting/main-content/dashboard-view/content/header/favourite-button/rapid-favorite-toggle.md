@@ -1,4 +1,4 @@
-# TC_FAVORITE_EDGE_001: Rapid Favorite Toggle
+**Title**: Rapid Favorite Toggle
 
 **Description**: Verify behavior with rapid clicking of favorite button
 **Pre-Condition**: Dashboard with favorite button available

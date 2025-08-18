@@ -1,4 +1,4 @@
-# TC_RENAME_MODAL_007: Close Button Operation
+**Title**: Close Button Operation
 
 **Description**: Verify X (close) button discards changes
 

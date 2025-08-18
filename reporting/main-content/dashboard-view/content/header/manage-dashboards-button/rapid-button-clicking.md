@@ -1,4 +1,4 @@
-# TC_MANAGE_DASHBOARDS_EDGE_001: Rapid Button Clicking
+**Title**: Rapid Button Clicking
 
 **Description**: Verify behavior with rapid clicking of button
 **Pre-Condition**: Manage Dashboards button is available

@@ -1,4 +1,4 @@
-# TC_RENAME_MODAL_002: Modal Structure Validation
+**Title**: Modal Structure Validation
 
 **Description**: Verify modal contains all required elements
 

@@ -1,4 +1,3 @@
-**Test Case ID**: TC_CREATE_REPORT_003
 **Title**: Report Name Field Validation
 **Description**: Verify report name field properties and requirements
 **Pre-Condition**: Create Report modal is open

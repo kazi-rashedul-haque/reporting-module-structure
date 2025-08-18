@@ -1,4 +1,4 @@
-# TC_MANAGE_DASHBOARDS_NEG_001: Button Missing or Disabled
+**Title**: Button Missing or Disabled
 
 **Description**: Verify system behavior when button is not available
 **Pre-Condition**: Manage Dashboards button should be present but isn't

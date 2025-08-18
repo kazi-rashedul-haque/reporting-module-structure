@@ -1,4 +1,4 @@
-# TC_DELETE_MODAL_NEG_001: Delete System Generated Dashboard
+**Title**: Delete System Generated Dashboard
 
 **Description**: Verify behavior when trying to delete system-generated dashboard
 

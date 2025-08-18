@@ -1,4 +1,4 @@
-# TC_ADD_REPORTS_EDGE_003: Maximum Reports on Dashboard
+**Title**: Maximum Reports on Dashboard
 
 **Description**: Verify behavior when dashboard has maximum number of reports
 **Pre-Condition**: Dashboard is at report limit (if any)

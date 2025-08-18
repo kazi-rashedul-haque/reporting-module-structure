@@ -1,4 +1,4 @@
-# TC_SAVE_AS_NEW_007 - Current State Preservation
+**Title**: Current State Preservation
 
 * **Title**: Current State Preservation
 * **Description**: Verify all current dashboard state is preserved in new dashboard

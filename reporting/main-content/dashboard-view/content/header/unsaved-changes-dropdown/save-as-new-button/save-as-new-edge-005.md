@@ -1,4 +1,4 @@
-# TC_SAVE_AS_NEW_EDGE_005 - Browser Navigation During Save as New
+**Title**: Browser Navigation During Save as New
 
 * **Title**: Browser Navigation During Save as New
 * **Description**: Verify behavior when user navigates away during Save as New process

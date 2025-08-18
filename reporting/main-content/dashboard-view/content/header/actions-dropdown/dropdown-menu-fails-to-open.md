@@ -1,4 +1,4 @@
-# TC_ACTIONS_DROPDOWN_NEG_002: Dropdown Menu Fails to Open
+**Title**: Dropdown Menu Fails to Open
 
 **Description**: Verify handling when dropdown menu doesn't open
 

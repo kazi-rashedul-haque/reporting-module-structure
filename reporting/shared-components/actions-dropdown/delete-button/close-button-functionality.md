@@ -1,4 +1,4 @@
-# TC_DELETE_MODAL_004: Close Button Functionality
+**Title**: Close Button Functionality
 
 **Description**: Verify X (close) button closes modal without deleting
 

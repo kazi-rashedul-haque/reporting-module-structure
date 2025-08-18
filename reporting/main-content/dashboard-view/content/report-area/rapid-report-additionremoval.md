@@ -1,4 +1,4 @@
-# TC_REPORT_AREA_EDGE_003: Rapid Report Addition/Removal
+**Title**: Rapid Report Addition/Removal
 
 **Description**: Verify report area handles rapid changes to report content
 **Pre-Condition**: User can quickly add/remove reports

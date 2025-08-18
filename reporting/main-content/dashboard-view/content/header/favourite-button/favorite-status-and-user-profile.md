@@ -1,4 +1,4 @@
-# TC_FAVORITE_INT_003: Favorite Status and User Profile
+**Title**: Favorite Status and User Profile
 
 **Description**: Verify favorite preferences are tied to user profile
 **Pre-Condition**: Multiple user accounts available
