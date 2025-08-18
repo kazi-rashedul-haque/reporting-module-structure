@@ -1,2 +1,0 @@
-Scrollbar:
-    The Scrollbar appears when the number of report cards exceeds the visible area of the report area.

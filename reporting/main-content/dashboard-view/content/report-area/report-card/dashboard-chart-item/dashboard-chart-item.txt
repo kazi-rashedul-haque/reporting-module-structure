@@ -1,8 +1,0 @@
-Report Usage Count Display:
-    In the chart item total count number is displayed in the middle of the report card.
-    If number_of_reports is 0, it displays "0%" in red.
-    If number_of_reports is 1 or more, it displays "100%" in green.
-
-Chart Type & Data Point Count on Hover:
-    If the report card contains a Line Chart, Bar Chart, or Dual Axis Chart, the corresponding chart is displayed.
-    On hover, the number of data points in the chart is shown.
